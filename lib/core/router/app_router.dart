@@ -6,6 +6,7 @@ import '../../data/models/topic.dart';
 import '../../features/exam/exam_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/achievements/achievements_screen.dart';
+import '../../features/flashcards/flashcards_screen.dart';
 import '../../features/listen/listen_mode_screen.dart';
 import '../../features/practice/practice_screen.dart';
 import '../../features/practice/weak_points_screen.dart';
@@ -130,6 +131,11 @@ final appRouter = GoRouter(
       path: '/listen',
       parentNavigatorKey: _rootKey,
       builder: (c, s) => const ListenModeScreen(),
+    ),
+    GoRoute(
+      path: '/flashcards',
+      parentNavigatorKey: _rootKey,
+      builder: (c, s) => const FlashcardsScreen(),
     ),
   ],
 );
