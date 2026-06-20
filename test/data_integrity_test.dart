@@ -47,6 +47,19 @@ void main() {
       expect(missing, isEmpty,
           reason: 'Eksik soru görselleri:\n${missing.join('\n')}');
     });
+
+    test('şık görselleri (görselli şıklar) diskte mevcut', () {
+      final missing = <String>[];
+      for (final q in list) {
+        for (final o in (q['options'] as List)) {
+          final s = o as String;
+          if (!s.startsWith('assets/')) continue;
+          if (!File(s).existsSync()) missing.add('${q['id']} -> $s');
+        }
+      }
+      expect(missing, isEmpty,
+          reason: 'Eksik şık görselleri:\n${missing.join('\n')}');
+    });
   });
 
   group('traffic_signs.json', () {
