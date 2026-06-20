@@ -20,9 +20,6 @@ class GuideHubScreen extends StatelessWidget {
       _GuideItem('Direksiyon Sınavı', 'Uygulama sınavı ipuçları',
           Icons.directions_car_outlined, const Color(0xFF7C3AED),
           const DrivingTestScreen()),
-      _GuideItem('İlk Yardım Rehberi', 'TYD, Heimlich, koma pozisyonu…',
-          Icons.medical_services_outlined, AppColors.error,
-          const FirstAidScreen()),
     ];
     return Scaffold(
       appBar: AppBar(title: const Text('Sürücü Rehberi')),
@@ -334,45 +331,6 @@ class DrivingTestScreen extends StatelessWidget {
   }
 }
 
-/// İlk yardım rehberi — açılır bölümler.
-class FirstAidScreen extends StatelessWidget {
-  const FirstAidScreen({super.key});
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('İlk Yardım Rehberi')),
-      body: ListView(
-        padding: const EdgeInsets.all(16),
-        children: [
-          const _Disclaimer(
-              'Bu bilgiler özet ve bilgilendirme amaçlıdır; resmi ilk yardım '
-              'eğitimini esas alın. Acil durumda 112\'yi arayın.'),
-          for (final s in kFirstAid)
-            Padding(
-              padding: const EdgeInsets.only(bottom: 10),
-              child: AppCard(
-                padding: EdgeInsets.zero,
-                child: Theme(
-                  data: Theme.of(context)
-                      .copyWith(dividerColor: Colors.transparent),
-                  child: ExpansionTile(
-                    leading: const Icon(Icons.medical_services_outlined,
-                        color: AppColors.error),
-                    title: Text(s[0],
-                        style: const TextStyle(fontWeight: FontWeight.w600)),
-                    childrenPadding:
-                        const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                    expandedCrossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(s[1],
-                          style: Theme.of(context).textTheme.bodyMedium),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-        ],
-      ),
-    );
-  }
-}
+// NOT: Bağımsız "İlk Yardım Rehberi" (adım adım talimat) ekranı, Google Play
+// Health Content politikası kapsamına girmemek için KALDIRILDI. İlk yardım
+// içeriği sınav soruları (eğitim) olarak kalıyor.
