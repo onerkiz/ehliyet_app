@@ -7,6 +7,7 @@ import '../../features/exam/exam_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/achievements/achievements_screen.dart';
 import '../../features/flashcards/flashcards_screen.dart';
+import '../../features/guide/guide_screens.dart';
 import '../../features/listen/listen_mode_screen.dart';
 import '../../features/practice/practice_screen.dart';
 import '../../features/practice/weak_points_screen.dart';
@@ -136,6 +137,11 @@ final appRouter = GoRouter(
       path: '/flashcards',
       parentNavigatorKey: _rootKey,
       builder: (c, s) => const FlashcardsScreen(),
+    ),
+    GoRoute(
+      path: '/guide',
+      parentNavigatorKey: _rootKey,
+      builder: (c, s) => const GuideHubScreen(),
     ),
   ],
 );

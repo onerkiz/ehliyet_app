@@ -54,6 +54,8 @@ class HomeScreen extends ConsumerWidget {
                     () => context.push('/listen')),
                 _Tool(Icons.style, const Color(0xFF2563EB), 'İşaret Kartları',
                     () => context.push('/flashcards')),
+                _Tool(Icons.menu_book_outlined, const Color(0xFF0EA5E9),
+                    'Sürücü Rehberi', () => context.push('/guide')),
                 _Tool(Icons.history_edu, AppColors.amber, 'Çıkmış Sorular',
                     () => context.push('/years')),
                 _Tool(Icons.trending_down, AppColors.error, 'Zayıf Noktalarım',
