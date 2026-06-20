@@ -442,40 +442,51 @@ class _OptionsSheetState extends State<_OptionsSheet> {
               setState(() {});
             },
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 12),
           Row(
+            children: const [
+              Icon(Icons.timer_outlined, size: 20),
+              SizedBox(width: 8),
+              Text('Soru arası bekleme',
+                  style: TextStyle(fontWeight: FontWeight.w600)),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
             children: [
-              const Icon(Icons.timer_outlined, size: 20),
-              const SizedBox(width: 8),
-              const Text('Soru arası bekleme'),
-              const Spacer(),
-              for (final ms in const [300, 600, 1500, 3000]) ...[
+              for (final ms in const [300, 600, 1500, 3000])
                 ChoiceChip(
-                  label: Text(ms < 1000 ? '${ms ~/ 100 / 10}s' : '${ms ~/ 1000}s'),
+                  label: Text(
+                      ms < 1000 ? '${ms ~/ 100 / 10}s' : '${ms ~/ 1000}s'),
                   selected: h.pauseMs == ms,
                   onSelected: (_) => setState(() => h.setPauseMs(ms)),
                 ),
-                const SizedBox(width: 6),
-              ],
             ],
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 16),
+          const Row(
+            children: [
+              Icon(Icons.bedtime_outlined, size: 20),
+              SizedBox(width: 8),
+              Text('Uyku zamanlayıcı',
+                  style: TextStyle(fontWeight: FontWeight.w600)),
+            ],
+          ),
+          const SizedBox(height: 8),
           ValueListenableBuilder<int?>(
             valueListenable: h.sleepMinN,
-            builder: (context, sleep, _) => Row(
+            builder: (context, sleep, _) => Wrap(
+              spacing: 8,
+              runSpacing: 8,
               children: [
-                const Icon(Icons.bedtime_outlined, size: 20),
-                const SizedBox(width: 8),
-                const Text('Uyku'),
-                const Spacer(),
-                for (final m in const [null, 15, 30, 60]) ...[
+                for (final m in const [null, 15, 30, 60])
                   ChoiceChip(
                     label: Text(m == null ? 'Kapalı' : '$m dk'),
                     selected: sleep == m,
                     onSelected: (_) => h.setSleepMinutes(m),
                   ),
-                  const SizedBox(width: 6),
-                ],
               ],
             ),
           ),
