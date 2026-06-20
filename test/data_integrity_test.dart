@@ -37,28 +37,34 @@ void main() {
       }
     });
 
-    test('soru görselleri (imageUrl) diskte mevcut', () {
-      final missing = <String>[];
+    // Var olması yetmez; 0-byte (bozuk) dosyaları da yakala.
+    bool brokenImg(String p) {
+      final f = File(p);
+      return !f.existsSync() || f.lengthSync() == 0;
+    }
+
+    test('soru görselleri (imageUrl) diskte mevcut ve dolu', () {
+      final bad = <String>[];
       for (final q in list) {
         final url = q['imageUrl'] as String?;
         if (url == null || url.isEmpty) continue;
-        if (!File(url).existsSync()) missing.add('${q['id']} -> $url');
+        if (brokenImg(url)) bad.add('${q['id']} -> $url');
       }
-      expect(missing, isEmpty,
-          reason: 'Eksik soru görselleri:\n${missing.join('\n')}');
+      expect(bad, isEmpty,
+          reason: 'Eksik/bozuk soru görselleri:\n${bad.join('\n')}');
     });
 
-    test('şık görselleri (görselli şıklar) diskte mevcut', () {
-      final missing = <String>[];
+    test('şık görselleri (görselli şıklar) diskte mevcut ve dolu', () {
+      final bad = <String>[];
       for (final q in list) {
         for (final o in (q['options'] as List)) {
           final s = o as String;
           if (!s.startsWith('assets/')) continue;
-          if (!File(s).existsSync()) missing.add('${q['id']} -> $s');
+          if (brokenImg(s)) bad.add('${q['id']} -> $s');
         }
       }
-      expect(missing, isEmpty,
-          reason: 'Eksik şık görselleri:\n${missing.join('\n')}');
+      expect(bad, isEmpty,
+          reason: 'Eksik/bozuk şık görselleri:\n${bad.join('\n')}');
     });
   });
 
