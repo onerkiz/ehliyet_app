@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../data/models/question.dart';
@@ -21,17 +20,3 @@ final topicsProvider = FutureProvider<List<Topic>>(
 
 final signsProvider = FutureProvider<Map<String, List<TrafficSign>>>(
     (ref) => ref.read(contentRepositoryProvider).loadSigns());
-
-/// Tema modu (Hive'da kalıcı).
-class ThemeModeNotifier extends Notifier<ThemeMode> {
-  @override
-  ThemeMode build() => ref.read(progressRepositoryProvider).themeMode();
-
-  Future<void> set(ThemeMode mode) async {
-    await ref.read(progressRepositoryProvider).setThemeMode(mode);
-    state = mode;
-  }
-}
-
-final themeModeProvider =
-    NotifierProvider<ThemeModeNotifier, ThemeMode>(ThemeModeNotifier.new);

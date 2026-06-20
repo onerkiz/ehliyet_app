@@ -16,8 +16,6 @@ class ProfileScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final mode = ref.watch(themeModeProvider);
-    final notifier = ref.read(themeModeProvider.notifier);
     final progress = ref.watch(progressRepositoryProvider);
     final examCount = progress.allResults().length;
     final streak = progress.currentStreak();
@@ -28,33 +26,6 @@ class ProfileScreen extends ConsumerWidget {
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
         children: [
           _ProfileHeader(examCount: examCount, streak: streak),
-          const SizedBox(height: 20),
-          const _SectionHeader('Görünüm'),
-          AppCard(
-            padding: EdgeInsets.zero,
-            child: RadioGroup<ThemeMode>(
-              groupValue: mode,
-              onChanged: (m) {
-                if (m != null) notifier.set(m);
-              },
-              child: const Column(
-                children: [
-                  RadioListTile<ThemeMode>(
-                    value: ThemeMode.system,
-                    title: Text('Sistem'),
-                  ),
-                  RadioListTile<ThemeMode>(
-                    value: ThemeMode.light,
-                    title: Text('Açık'),
-                  ),
-                  RadioListTile<ThemeMode>(
-                    value: ThemeMode.dark,
-                    title: Text('Koyu'),
-                  ),
-                ],
-              ),
-            ),
-          ),
           const SizedBox(height: 20),
           const _SectionHeader('Hatırlatıcı'),
           const AppCard(
