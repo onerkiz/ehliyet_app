@@ -20,7 +20,7 @@ class HomeScreen extends ConsumerWidget {
     final progress = ref.watch(progressRepositoryProvider);
     final results = progress.allResults();
     final lastResult = results.isNotEmpty ? results.first : null;
-    final streak = progress.currentStreak();
+    final dailyDone = progress.dailyDoneDay() == todayEpochDay();
 
     return Scaffold(
       // Minimal: app bar yok (ayarlar Profil sekmesinde). İçerik SafeArea'da.
@@ -32,24 +32,24 @@ class HomeScreen extends ConsumerWidget {
         data: (all) => ListView(
           padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
           children: [
-            _StreakBanner(streak: streak, best: progress.bestStreak()),
             if (lastResult != null) ...[
-              const SizedBox(height: 12),
               _LastResultStrip(result: lastResult),
+              const SizedBox(height: 16),
             ],
-            const SizedBox(height: 16),
             _ExamCard(
               onStart: () {
                 ref.read(examControllerProvider.notifier).start(all);
                 context.push('/exam');
               },
             ),
-            const SizedBox(height: 12),
-            _DailyCard(
-              question: all[dailyQuestionIndex(all.length)],
-              done: progress.dailyDoneDay() == todayEpochDay(),
-              onTap: () => context.push('/daily'),
-            ),
+            // Günün sorusu yalnızca bugün çözülmediyse görünür; çözülünce kalkar.
+            if (!dailyDone) ...[
+              const SizedBox(height: 12),
+              _DailyCard(
+                question: all[dailyQuestionIndex(all.length)],
+                onTap: () => context.push('/daily'),
+              ),
+            ],
             const SizedBox(height: 24),
             const SectionHeader('Ders Bazında Çalış'),
             _CategoryGrid(all: all),
@@ -78,58 +78,6 @@ class HomeScreen extends ConsumerWidget {
           ],
         ),
       ),
-      ),
-    );
-  }
-}
-
-/// Günlük çalışma serisi — beyaz kart + amber dairesel ateş ikonu.
-class _StreakBanner extends StatelessWidget {
-  final int streak;
-  final int best;
-  const _StreakBanner({required this.streak, required this.best});
-
-  @override
-  Widget build(BuildContext context) {
-    final active = streak > 0;
-    return AppCard(
-      child: Row(
-        children: [
-          Container(
-            width: 44,
-            height: 44,
-            decoration: BoxDecoration(
-              color: (active ? AppColors.amber : AppColors.textSecondary)
-                  .withValues(alpha: 0.12),
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Icon(
-              active
-                  ? Icons.local_fire_department
-                  : Icons.local_fire_department_outlined,
-              color: active ? AppColors.amber : AppColors.textSecondary,
-            ),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  active ? '$streak günlük seri 🔥' : 'Seriye başla!',
-                  style: Theme.of(context).textTheme.titleMedium,
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  active
-                      ? 'En iyi: $best gün'
-                      : 'Bugün bir soru çöz, serini başlat.',
-                  style: Theme.of(context).textTheme.bodySmall,
-                ),
-              ],
-            ),
-          ),
-        ],
       ),
     );
   }
@@ -260,10 +208,8 @@ class _ExamCard extends StatelessWidget {
 /// Günün Sorusu kartı — her gün değişen tek soru (retention).
 class _DailyCard extends StatelessWidget {
   final Question question;
-  final bool done;
   final VoidCallback onTap;
-  const _DailyCard(
-      {required this.question, required this.done, required this.onTap});
+  const _DailyCard({required this.question, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
@@ -275,34 +221,18 @@ class _DailyCard extends StatelessWidget {
             width: 44,
             height: 44,
             decoration: BoxDecoration(
-              color: (done ? AppColors.primary : AppColors.amber)
-                  .withValues(alpha: 0.12),
+              color: AppColors.amber.withValues(alpha: 0.12),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Icon(
-              done ? Icons.check_circle : Icons.today_outlined,
-              color: done ? AppColors.primary : AppColors.amber,
-            ),
+            child: const Icon(Icons.today_outlined, color: AppColors.amber),
           ),
           const SizedBox(width: 12),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Row(
-                  children: [
-                    Text('Günün Sorusu',
-                        style: Theme.of(context).textTheme.titleMedium),
-                    if (done) ...[
-                      const SizedBox(width: 6),
-                      Text('• çözüldü',
-                          style: Theme.of(context)
-                              .textTheme
-                              .bodySmall
-                              ?.copyWith(color: AppColors.primary)),
-                    ],
-                  ],
-                ),
+                Text('Günün Sorusu',
+                    style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: 2),
                 Text(
                   question.text,

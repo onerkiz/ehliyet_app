@@ -18,14 +18,13 @@ class ProfileScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final progress = ref.watch(progressRepositoryProvider);
     final examCount = progress.allResults().length;
-    final streak = progress.currentStreak();
 
     return Scaffold(
       appBar: AppBar(title: const Text('Profil')),
       body: ListView(
         padding: const EdgeInsets.fromLTRB(16, 8, 16, 24),
         children: [
-          _ProfileHeader(examCount: examCount, streak: streak),
+          _ProfileHeader(examCount: examCount),
           const SizedBox(height: 20),
           const _SectionHeader('Hatırlatıcı'),
           const AppCard(
@@ -55,6 +54,12 @@ class ProfileScreen extends ConsumerWidget {
                   subtitle: const Text('Yanlış soru veya öneri için yaz'),
                   onTap: _reportIssue,
                 ),
+                ListTile(
+                  leading: const Icon(Icons.privacy_tip_outlined),
+                  title: const Text('Gizlilik Politikası'),
+                  trailing: const Icon(Icons.open_in_new, size: 18),
+                  onTap: _openPrivacy,
+                ),
                 const _VersionTile(),
               ],
             ),
@@ -72,6 +77,13 @@ class ProfileScreen extends ConsumerWidget {
           'subject=${Uri.encodeComponent('Ehliyet Uygulaması - Geri Bildirim')}',
     );
     await launchUrl(uri, mode: LaunchMode.externalApplication);
+  }
+
+  Future<void> _openPrivacy() async {
+    await launchUrl(
+      Uri.parse('https://blograf.com/ehliyet/privacy'),
+      mode: LaunchMode.externalApplication,
+    );
   }
 
   Future<void> _resetData(BuildContext context, WidgetRef ref) async {
@@ -106,8 +118,7 @@ class ProfileScreen extends ConsumerWidget {
 /// Profil başlığı — avatar + isim + mini istatistik. (Hesap özelliği ileride.)
 class _ProfileHeader extends StatelessWidget {
   final int examCount;
-  final int streak;
-  const _ProfileHeader({required this.examCount, required this.streak});
+  const _ProfileHeader({required this.examCount});
 
   @override
   Widget build(BuildContext context) {
@@ -133,7 +144,7 @@ class _ProfileHeader extends StatelessWidget {
                     style: Theme.of(context).textTheme.titleLarge),
                 const SizedBox(height: 4),
                 Text(
-                  '$examCount sınav · $streak günlük seri',
+                  '$examCount deneme sınavı tamamlandı',
                   style: Theme.of(context).textTheme.bodySmall,
                 ),
               ],
@@ -161,9 +172,6 @@ class _VersionTile extends StatelessWidget {
           icon: const Icon(Icons.info_outline),
           applicationName: 'Ehliyet Sınav 2026',
           applicationVersion: v,
-          child: const Text(
-            'MEB e-sınav formatına uygun, çevrimdışı ehliyet hazırlık uygulaması.',
-          ),
         );
       },
     );

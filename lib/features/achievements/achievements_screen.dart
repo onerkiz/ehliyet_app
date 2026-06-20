@@ -30,7 +30,6 @@ class AchievementsScreen extends ConsumerWidget {
 
     final answered = progress.totalAnswered();
     final correct = progress.totalCorrect();
-    final best = progress.bestStreak();
     final examCount = results.length;
     final passed = results.where((r) => r.passed).length;
     final perfect =
@@ -79,13 +78,6 @@ class AchievementsScreen extends ConsumerWidget {
           1),
       _Badge('Az Kaldı', 'Bir denemede 45+ doğru', Icons.trending_up, orange,
           maxCorrect >= 45 ? 1 : 0, 1),
-      // Seri (streak)
-      _Badge('3 Gün Direksiyonda', '3 gün üst üste çalış',
-          Icons.local_fire_department, orange, best, 3),
-      _Badge('Haftanın Şoförü', '7 gün üst üste çalış',
-          Icons.local_fire_department, orange, best, 7),
-      _Badge('Yolun Profesyoneli', '30 gün üst üste çalış',
-          Icons.local_fire_department, red, best, 30),
       // Ders uzmanlığı
       _Badge('Trafik Bilgini', 'Trafik\'te 100 doğru', Icons.traffic, blue,
           cc('trafik'), 100),
