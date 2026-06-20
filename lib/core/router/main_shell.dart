@@ -6,7 +6,7 @@ import '../ads/banner_ad_widget.dart';
 /// Alt navigasyon barlı ana kabuk. Sekmeler durumlarını korur.
 /// Banner reklam yalnızca burada (4 ana sekme) görünür — sınav/pratik
 /// ekranları tam ekran rotalardır, banner taşımazlar.
-/// Banner, alt menünün ALTINDA en dipte sabit (orilay app'teki gibi).
+/// Banner, alt menünün ALTINDA en dipte sabit.
 class MainShell extends StatelessWidget {
   final StatefulNavigationShell shell;
   const MainShell({super.key, required this.shell});
@@ -50,7 +50,7 @@ class MainShell extends StatelessWidget {
               ),
             ],
           ),
-          // Banner alt menünün ALTINDA — en dipte sabit (orilay app gibi).
+          // Banner alt menünün ALTINDA — en dipte sabit.
           const BannerAdWidget(),
         ],
       ),

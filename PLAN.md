@@ -31,4 +31,4 @@ MEB soru dağılımı (50 soru): Trafik 23, İlk Yardım 12, Motor 9, Trafik Ada
 6. Kategori pratiği 7. İşaretler+konular 8. İstatistik+yanlışlarım/favoriler+ayarlar 9. flutter analyze
 
 ## Faz 1 dışı (sonra)
-Az reklam + premium (IAP), bildirim, animasyonlu/video sorular, Google login + orilay backend, online yarışma.
+Az reklam + premium (IAP), bildirim, animasyonlu/video sorular, Google login + blograf backend, online yarışma.
