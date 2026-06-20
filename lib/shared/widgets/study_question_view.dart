@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme/app_theme.dart';
+import '../../core/tts/tts_service.dart';
 import '../../data/models/question.dart';
 import '../providers/providers.dart';
 import 'question_image.dart';
@@ -32,6 +33,51 @@ class StudyQuestionView extends ConsumerStatefulWidget {
 class _StudyQuestionViewState extends ConsumerState<StudyQuestionView> {
   int? _selected;
   bool _answered = false;
+  bool _speaking = false;
+
+  @override
+  void initState() {
+    super.initState();
+    // "Dinleyerek Çalış" açıksa soruyu otomatik oku.
+    if (ref.read(ttsAutoReadProvider)) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _speak(_questionSpeech());
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    TtsService.instance.stop();
+    super.dispose();
+  }
+
+  String _questionSpeech() =>
+      TtsService.buildQuestionSpeech(widget.question.text, widget.question.options);
+
+  String _explanationSpeech() {
+    final q = widget.question;
+    final harf = String.fromCharCode(65 + q.correctAnswer);
+    final expl = q.explanation;
+    return 'Doğru cevap: $harf şıkkı.${expl != null ? ' $expl' : ''}';
+  }
+
+  /// Metni oku (öncekini durdurur). Bitince _speaking sıfırlanır.
+  Future<void> _speak(String text) async {
+    setState(() => _speaking = true);
+    await TtsService.instance.speak(text);
+    if (mounted) setState(() => _speaking = false);
+  }
+
+  /// Aynı butonla oynat/durdur. (awaitSpeakCompletion sayesinde speak bitince döner.)
+  Future<void> _toggleSpeak(String text) async {
+    if (_speaking) {
+      await TtsService.instance.stop();
+      if (mounted) setState(() => _speaking = false);
+      return;
+    }
+    await _speak(text);
+  }
 
   void _select(int i) {
     if (_answered) return;
@@ -47,6 +93,10 @@ class _StudyQuestionViewState extends ConsumerState<StudyQuestionView> {
       HapticFeedback.heavyImpact();
     }
     widget.onAnswered(correct);
+    // Sesli mod açıksa açıklamayı otomatik oku.
+    if (ref.read(ttsAutoReadProvider)) {
+      _toggleSpeak(_explanationSpeech());
+    }
   }
 
   @override
@@ -79,6 +129,12 @@ class _StudyQuestionViewState extends ConsumerState<StudyQuestionView> {
                   Text('Soru ${widget.position}/${widget.total}',
                       style: Theme.of(context).textTheme.bodySmall),
                   const Spacer(),
+                  IconButton(
+                    icon: Icon(_speaking ? Icons.stop_circle : Icons.volume_up,
+                        color: _speaking ? AppColors.primary : null),
+                    tooltip: _speaking ? 'Durdur' : 'Soruyu dinle',
+                    onPressed: () => _toggleSpeak(_questionSpeech()),
+                  ),
                   IconButton(
                     icon: Icon(isFav ? Icons.star : Icons.star_border,
                         color: isFav ? Colors.amber : null),
@@ -181,6 +237,12 @@ class _StudyQuestionViewState extends ConsumerState<StudyQuestionView> {
                       const Icon(Icons.lightbulb_outline, size: 18),
                       const SizedBox(width: 8),
                       Expanded(child: Text(q.explanation!)),
+                      IconButton(
+                        visualDensity: VisualDensity.compact,
+                        icon: const Icon(Icons.volume_up, size: 20),
+                        tooltip: 'Açıklamayı dinle',
+                        onPressed: () => _toggleSpeak(_explanationSpeech()),
+                      ),
                     ],
                   ),
                 ),

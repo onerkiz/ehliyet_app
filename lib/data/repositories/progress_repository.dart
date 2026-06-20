@@ -125,4 +125,11 @@ class ProgressRepository {
 
   Future<void> setThemeMode(ThemeMode mode) =>
       _settings.put('themeMode', mode.name);
+
+  // --- "Dinleyerek Çalış" (sesli okuma) ayarı ---
+  /// Yeni soru gelince otomatik sesli okunsun mu? (varsayılan kapalı)
+  bool ttsAutoRead() =>
+      _settings.get('ttsAutoRead', defaultValue: false) as bool;
+  Future<void> setTtsAutoRead(bool enabled) =>
+      _settings.put('ttsAutoRead', enabled);
 }
