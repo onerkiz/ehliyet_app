@@ -136,7 +136,16 @@ class ProgressRepository {
       (_settings.get('ttsSpeed', defaultValue: 1.0) as num).toDouble();
   Future<void> setTtsSpeed(double mult) => _settings.put('ttsSpeed', mult);
 
-  /// Dinleme modunda kaldığı soru indeksi (kaldığı yerden devam).
-  int listenIndex() => _settings.get('listenIndex', defaultValue: 0) as int;
-  Future<void> setListenIndex(int i) => _settings.put('listenIndex', i);
+  /// Dinleme modunda kaldığı soru indeksi — kategori başına (kaldığı yerden devam).
+  int listenIndex(String cat) =>
+      _settings.get('listenIdx_${cat.isEmpty ? 'all' : cat}',
+          defaultValue: 0) as int;
+  Future<void> setListenIndex(String cat, int i) =>
+      _settings.put('listenIdx_${cat.isEmpty ? 'all' : cat}', i);
+
+  /// Dinleme modunda açıklama da okunsun mu? (varsayılan açık)
+  bool ttsReadExplanation() =>
+      _settings.get('ttsReadExpl', defaultValue: true) as bool;
+  Future<void> setTtsReadExplanation(bool v) =>
+      _settings.put('ttsReadExpl', v);
 }
