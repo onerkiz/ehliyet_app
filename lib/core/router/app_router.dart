@@ -6,6 +6,7 @@ import '../../data/models/topic.dart';
 import '../../features/exam/exam_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/achievements/achievements_screen.dart';
+import '../../features/daily/daily_question_screen.dart';
 import '../../features/flashcards/flashcards_screen.dart';
 import '../../features/guide/guide_screens.dart';
 import '../../features/listen/listen_mode_screen.dart';
@@ -142,6 +143,11 @@ final appRouter = GoRouter(
       path: '/guide',
       parentNavigatorKey: _rootKey,
       builder: (c, s) => const GuideHubScreen(),
+    ),
+    GoRoute(
+      path: '/daily',
+      parentNavigatorKey: _rootKey,
+      builder: (c, s) => const DailyQuestionScreen(),
     ),
   ],
 );

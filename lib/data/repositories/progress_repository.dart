@@ -148,4 +148,9 @@ class ProgressRepository {
       _settings.get('ttsReadExpl', defaultValue: true) as bool;
   Future<void> setTtsReadExplanation(bool v) =>
       _settings.put('ttsReadExpl', v);
+
+  // --- Günün Sorusu ---
+  /// Günün sorusunun çözüldüğü gün (epoch-day, yerel). -1 = hiç.
+  int dailyDoneDay() => _settings.get('dailyDoneDay', defaultValue: -1) as int;
+  Future<void> setDailyDone(int day) => _settings.put('dailyDoneDay', day);
 }

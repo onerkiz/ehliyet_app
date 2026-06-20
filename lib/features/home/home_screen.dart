@@ -6,6 +6,7 @@ import '../../core/constants/exam_config.dart';
 import '../../core/theme/app_theme.dart';
 import '../../data/models/exam_result.dart';
 import '../../data/models/question.dart';
+import '../daily/daily_question_screen.dart';
 import '../../shared/providers/providers.dart';
 import '../../shared/widgets/app_card.dart';
 import '../exam/exam_controller.dart';
@@ -42,6 +43,12 @@ class HomeScreen extends ConsumerWidget {
                 ref.read(examControllerProvider.notifier).start(all);
                 context.push('/exam');
               },
+            ),
+            const SizedBox(height: 12),
+            _DailyCard(
+              question: all[dailyQuestionIndex(all.length)],
+              done: progress.dailyDoneDay() == todayEpochDay(),
+              onTap: () => context.push('/daily'),
             ),
             const SizedBox(height: 24),
             const SectionHeader('Ders Bazında Çalış'),
@@ -244,6 +251,69 @@ class _ExamCard extends StatelessWidget {
               ),
             ],
           ),
+        ],
+      ),
+    );
+  }
+}
+
+/// Günün Sorusu kartı — her gün değişen tek soru (retention).
+class _DailyCard extends StatelessWidget {
+  final Question question;
+  final bool done;
+  final VoidCallback onTap;
+  const _DailyCard(
+      {required this.question, required this.done, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return AppCard(
+      onTap: onTap,
+      child: Row(
+        children: [
+          Container(
+            width: 44,
+            height: 44,
+            decoration: BoxDecoration(
+              color: (done ? AppColors.primary : AppColors.amber)
+                  .withValues(alpha: 0.12),
+              borderRadius: BorderRadius.circular(12),
+            ),
+            child: Icon(
+              done ? Icons.check_circle : Icons.today_outlined,
+              color: done ? AppColors.primary : AppColors.amber,
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Text('Günün Sorusu',
+                        style: Theme.of(context).textTheme.titleMedium),
+                    if (done) ...[
+                      const SizedBox(width: 6),
+                      Text('• çözüldü',
+                          style: Theme.of(context)
+                              .textTheme
+                              .bodySmall
+                              ?.copyWith(color: AppColors.primary)),
+                    ],
+                  ],
+                ),
+                const SizedBox(height: 2),
+                Text(
+                  question.text,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: Theme.of(context).textTheme.bodySmall,
+                ),
+              ],
+            ),
+          ),
+          const Icon(Icons.chevron_right, color: AppColors.textSecondary),
         ],
       ),
     );
