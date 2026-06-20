@@ -3,8 +3,15 @@
 ## Uygulama adı (30 karakter sınırı)
 `Ehliyet Sınav İnternetsiz 2026`  <!-- 30 karakter, "internetsiz" ASO anahtarı başlıkta -->
 
-## Kısa açıklama (80 karakter)
-`İnternetsiz! 2026 çıkmış sorular, deneme sınavı, trafik işaretleri — ücretsiz`
+## Kısa açıklama (80 karakter) — rakip acısına (reklamla bölünme) cevap veren seçenekler
+<!-- ÖNERİLEN (B): farkı + anahtar kelime dengeli -->
+`İnternetsiz & kayıtsız! 2026 ehliyet soruları — çözerken reklam bölmez` (70)
+<!-- Alternatif A (pain-first): -->
+`Çözerken araya reklam girmez! İnternetsiz, kayıtsız, ücretsiz ehliyet` (69)
+<!-- Alternatif C (keyword-first): -->
+`İnternetsiz! Çıkmış sorular, deneme sınavı — çözerken reklam bölmez, ücretsiz` (76)
+
+> ⚠️ DÜRÜSTLÜK: "reklamsız" DEME — altta banner var. "çözerken/sınavda araya reklam GİRMEZ, bölmez" doğru ve rakibin #1 şikayetine (sınav ortasında tam ekran/bahis reklamı) tam cevap.
 
 ## Tam açıklama (4000 karakter)
 ```
@@ -14,6 +21,9 @@ Ehliyet sınavına (e-sınav) hazırlanmanın en kolay yolu — TAMAMEN İNTERNE
 • Tamamen ÜCRETSİZ ve çevrimdışı — internet olmadan da çalışır
 • 2300+ gerçek sınav sorusu, çoğunda detaylı AÇIKLAMA
 • Gerçek e-sınav formatı: 50 soru, 45 dakika, 35 doğru ile geçme
+
+🚫 RAHAT ÇALIŞ — REKLAM SENİ BÖLMEZ
+Soru çözerken ve sınav verirken araya tam ekran reklam GİRMEZ; sınavın bölünmez, dikkatin dağılmaz. Reklamları kaldırmak için abonelik/ödeme YOK. (Yalnızca ekranın altında küçük bir banner bulunur.) Kayıt yok, giriş yok — aç ve hemen çözmeye başla.
 
 📝 DENEME SINAVI
 Gerçek sınavın birebir aynısı: MEB ders dağılımı (Trafik 23, İlk Yardım 12, Motor 9, Trafik Adabı 6), 45 dakika sayaç, soru paleti ile geçiş. Sınav sonunda ders bazında detaylı sonuç.
@@ -60,12 +70,19 @@ internetsiz ehliyet, çevrimdışı ehliyet, trafik işaretleri, sürücü kursu
 2026 ehliyet, ilk yardım, trafik adabı
 
 ## Ekran görüntüsü önerileri (min 2, ideal 6 — telefon)
-1. Ana ekran (streak + Deneme Sınavı kartı + ders kartları)
-2. Deneme sınavı çözüm ekranı (soru + sayaç + palet)
-3. Sonuç ekranı (geçti + ders bazında dağılım)
-4. Çıkmış Sorular (yıl listesi)
-5. Trafik İşaretleri (grid + arama)
-6. Başarılarım (rozetler) veya İstatistik grafikleri
+> İlk 2 görsel "para" görseli: kullanıcı rakipten (reklam acısı) geliyor, ÜST YAZI ile farkı bağır.
+> Üst yazı kısa, kalın, yeşil vurgu. Ekran görüntüleri yeni tasarımla telefonda çekilecek.
+
+| # | Ekran | ÜST YAZI (overlay metni) |
+|---|---|---|
+| 1 | Ana ekran (hero + ders kartları) | **"Çözerken reklam bölmez"** · alt satır: İnternetsiz · Kayıtsız · Ücretsiz |
+| 2 | Sınav çözüm ekranı (soru + sayaç) | **"Sınavın reklamla kesilmez"** · alt: Gerçek e-sınav: 50 soru, 45 dk |
+| 3 | Sonuç ekranı (geçti + halka + konfeti) | **"Ders bazında detaylı sonuç"** |
+| 4 | Çıkmış Sorular (yıl listesi) | **"Yıllara göre çıkmış sorular"** |
+| 5 | Trafik İşaretleri (grid + arama) | **"229 trafik işareti — aranabilir"** |
+| 6 | İstatistik / Başarılarım | **"İlerlemeni takip et, seriyi büyüt"** |
+
+> Not: "reklamsız" YAZMA (altta banner var). "bölmez / kesilmez / araya girmez" kullan — hem doğru hem rakibin acısına cevap.
 
 ## Play Console — Veri Güvenliği formu (REKLAM olduğu için)
 - Veri topluyor mu? → **Evet** (yalnızca reklam SDK'sı aracılığıyla)
