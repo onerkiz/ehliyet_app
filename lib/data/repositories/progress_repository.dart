@@ -153,4 +153,9 @@ class ProgressRepository {
   /// Günün sorusunun çözüldüğü gün (epoch-day, yerel). -1 = hiç.
   int dailyDoneDay() => _settings.get('dailyDoneDay', defaultValue: -1) as int;
   Future<void> setDailyDone(int day) => _settings.put('dailyDoneDay', day);
+
+  // --- Onboarding (ilk açılış tanıtımı) ---
+  bool onboardingDone() =>
+      _settings.get('onboardingDone', defaultValue: false) as bool;
+  Future<void> setOnboardingDone() => _settings.put('onboardingDone', true);
 }

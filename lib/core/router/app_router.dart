@@ -3,6 +3,8 @@ import 'package:go_router/go_router.dart';
 
 import '../../data/models/exam_result.dart';
 import '../../data/models/topic.dart';
+import '../../data/repositories/progress_repository.dart';
+import '../../features/onboarding/onboarding_screen.dart';
 import '../../features/exam/exam_screen.dart';
 import '../../features/home/home_screen.dart';
 import '../../features/achievements/achievements_screen.dart';
@@ -30,7 +32,19 @@ final _rootKey = GlobalKey<NavigatorState>();
 final appRouter = GoRouter(
   initialLocation: '/',
   navigatorKey: _rootKey,
+  redirect: (context, state) {
+    final done = ProgressRepository().onboardingDone();
+    final atOnboarding = state.matchedLocation == '/onboarding';
+    if (!done && !atOnboarding) return '/onboarding';
+    if (done && atOnboarding) return '/';
+    return null;
+  },
   routes: [
+    GoRoute(
+      path: '/onboarding',
+      parentNavigatorKey: _rootKey,
+      builder: (c, s) => const OnboardingScreen(),
+    ),
     // Alt navigasyon barlı ana kabuk
     StatefulShellRoute.indexedStack(
       builder: (c, s, shell) => MainShell(shell: shell),
