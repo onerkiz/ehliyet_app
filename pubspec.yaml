@@ -45,6 +45,7 @@ dependencies:
   timezone: ^0.10.0          # bildirim zamanlaması
   url_launcher: ^6.3.1       # soru/hata bildir (mailto)
   package_info_plus: ^8.0.0  # otomatik sürüm numarası
+  share_plus: ^12.0.2       # sonucu paylaş (viral büyüme) — OS paylaşım sayfası, offline
 
   # NOT: Para kazanma YALNIZCA AdMob reklamı (ücretsiz app). Login ve
   # abonelik/IAP YOK. Videolu/animasyonlu soru YOK.

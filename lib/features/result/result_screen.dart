@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../../core/ads/ad_service.dart';
 import '../../core/constants/exam_config.dart';
@@ -20,6 +21,10 @@ class ResultScreen extends ConsumerStatefulWidget {
   ConsumerState<ResultScreen> createState() => _ResultScreenState();
 }
 
+/// Yayından sonra geçerli olacak Play Store linki (paket: com.ehliyet_sinav).
+const String kPlayStoreUrl =
+    'https://play.google.com/store/apps/details?id=com.ehliyet_sinav';
+
 class _ResultScreenState extends ConsumerState<ResultScreen> {
   @override
   void initState() {
@@ -28,6 +33,17 @@ class _ResultScreenState extends ConsumerState<ResultScreen> {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       AdService.instance.showInterstitial();
     });
+  }
+
+  /// Sonucu OS paylaşım sayfasıyla paylaş (viral büyüme). İnternetsiz.
+  Future<void> _shareResult() async {
+    final r = widget.result;
+    final basari = r.passed
+        ? 'Ehliyet deneme sınavını ${r.correct}/${r.total} ile GEÇTİM! 🎉🚗'
+        : 'Ehliyet deneme sınavında ${r.correct}/${r.total} yaptım, çalışmaya devam! 🚗';
+    final text = '$basari\n\n'
+        'Sen de internetsiz, kayıtsız ve ücretsiz çalış:\n$kPlayStoreUrl';
+    await SharePlus.instance.share(ShareParams(text: text));
   }
 
   @override
@@ -46,6 +62,13 @@ class _ResultScreenState extends ConsumerState<ResultScreen> {
       appBar: AppBar(
         title: const Text('Sınav Sonucu'),
         automaticallyImplyLeading: false,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.share_outlined),
+            tooltip: 'Sonucu paylaş',
+            onPressed: _shareResult,
+          ),
+        ],
       ),
       body: Stack(
         children: [
@@ -158,6 +181,12 @@ class _ResultScreenState extends ConsumerState<ResultScreen> {
             onPressed: () => context.push('/review', extra: result),
             icon: const Icon(Icons.fact_check_outlined),
             label: const Text('Soruları İncele'),
+          ),
+          const SizedBox(height: 12),
+          OutlinedButton.icon(
+            onPressed: _shareResult,
+            icon: const Icon(Icons.share_outlined),
+            label: Text(passed ? 'Sonucu Paylaş 🎉' : 'Sonucu Paylaş'),
           ),
           const SizedBox(height: 12),
           OutlinedButton.icon(
