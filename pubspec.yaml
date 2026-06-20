@@ -1,0 +1,127 @@
+name: ehliyet_sinav_2025
+description: "Ehliyet (sürücü belgesi) e-sınavına hazırlık: çıkmış sorular, deneme sınavları, trafik işaretleri, konu testleri ve istatistikler. Tamamen internetsiz çalışır."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  # Faz 1 — tamamen offline. Yalnızca gerçekten kullanılan paketler.
+  flutter_riverpod: ^3.0.3   # state
+  go_router: ^17.0.0         # router
+  hive_flutter: ^1.1.0       # kalıcılık (offline)
+  fl_chart: ^1.1.1           # istatistik grafikleri
+  google_mobile_ads: ^6.0.0  # reklam (banner + geçiş) — tek para kazanma yolu
+  in_app_review: ^2.0.10     # mağaza puanı isteme
+  flutter_local_notifications: ^19.0.0  # günlük çalışma hatırlatıcısı (sunucusuz)
+  timezone: ^0.10.0          # bildirim zamanlaması
+  url_launcher: ^6.3.1       # soru/hata bildir (mailto)
+  package_info_plus: ^8.0.0  # otomatik sürüm numarası
+
+  # NOT: Para kazanma YALNIZCA AdMob reklamı (ücretsiz app). Login ve
+  # abonelik/IAP YOK. Videolu/animasyonlu soru YOK.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.1
+
+# Launcher ikonu üretimi: dart run flutter_launcher_icons
+# Kaynak: assets/icon/app_icon.png (yeşil zemin + beyaz direksiyon)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#16A34A"
+  adaptive_icon_foreground: "assets/icon/app_icon_fg.png"
+  min_sdk_android: 21
+  web:
+    generated: true
+    image_path: "assets/icon/app_icon.png"
+    background_color: "#16A34A"
+    theme_color: "#16A34A"
+
+# Açılış (splash) ekranı: yeşil zemin + beyaz logo.
+# Üretmek için: dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#16A34A"
+  image: assets/icon/app_icon_fg.png
+  android_12:
+    color: "#16A34A"
+    image: assets/icon/app_icon_fg.png
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - assets/data/
+    - assets/images/
+    - assets/images/signs/
+    - assets/images/q/
+    - assets/animations/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # Plus Jakarta Sans — offline gömülü (google_fonts runtime indirme KULLANILMAZ).
+  # Statik ağırlıklar variable font'tan fonttools ile üretildi.
+  fonts:
+    - family: Plus Jakarta Sans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans-400.ttf
+          weight: 400
+        - asset: assets/fonts/PlusJakartaSans-500.ttf
+          weight: 500
+        - asset: assets/fonts/PlusJakartaSans-600.ttf
+          weight: 600
+        - asset: assets/fonts/PlusJakartaSans-700.ttf
+          weight: 700

@@ -1,0 +1,1377 @@
+{
+  "tehlikeUyari": [
+    {
+      "code": "T-1a",
+      "name": "Sağa Tehlikeli Viraj",
+      "description": "Yolun ilerisinde sağa doğru tehlikeli viraj olduğunu bildirir. Sürücüler hızını azaltmalı ve dikkatli olmalıdır.",
+      "imageUrl": "assets/images/signs/t_1a.png"
+    },
+    {
+      "code": "T-1b",
+      "name": "Sola Tehlikeli Viraj",
+      "description": "Yolun ilerisinde sola doğru tehlikeli viraj olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_1b.png"
+    },
+    {
+      "code": "T-2a",
+      "name": "Sağa Tehlikeli Devamlı Virajlar",
+      "description": "İleride sağa doğru başlayan devamlı tehlikeli virajlar olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_2a.png"
+    },
+    {
+      "code": "T-2b",
+      "name": "Sola Tehlikeli Devamlı Virajlar",
+      "description": "İleride sola doğru başlayan devamlı tehlikeli virajlar olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_2b.png"
+    },
+    {
+      "code": "T-3a",
+      "name": "Tehlikeli Eğim (İniş)",
+      "description": "İleride tehlikeli iniş olduğunu ve yüzde oranını bildirir. Vites küçültülmeli, fren kullanımına dikkat edilmelidir.",
+      "imageUrl": "assets/images/signs/t_3a.png"
+    },
+    {
+      "code": "T-3b",
+      "name": "Tehlikeli Eğim (Çıkış)",
+      "description": "İleride tehlikeli yokuş çıkışı olduğunu ve yüzde oranını bildirir.",
+      "imageUrl": "assets/images/signs/t_3b.png"
+    },
+    {
+      "code": "T-4a",
+      "name": "İki Taraftan Daralan Kaplama",
+      "description": "Yol kaplamasının her iki taraftan daraldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_4a.png"
+    },
+    {
+      "code": "T-4b",
+      "name": "Sağdan Daralan Kaplama",
+      "description": "Yol kaplamasının sağ taraftan daraldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_4b.png"
+    },
+    {
+      "code": "T-4c",
+      "name": "Soldan Daralan Kaplama",
+      "description": "Yol kaplamasının sol taraftan daraldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_4c.png"
+    },
+    {
+      "code": "T-5",
+      "name": "Açılan Köprü",
+      "description": "İleride açılır kapanır köprü bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_5.png"
+    },
+    {
+      "code": "T-6",
+      "name": "Deniz veya Nehir Kıyısında Biten Yol",
+      "description": "Yolun deniz veya nehir kıyısında sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/t_6.png"
+    },
+    {
+      "code": "T-7",
+      "name": "Kasisli Yol",
+      "description": "İleride kasis veya tümsek bulunduğunu bildirir. Hız azaltılmalıdır.",
+      "imageUrl": "assets/images/signs/t_7.png"
+    },
+    {
+      "code": "T-8",
+      "name": "Kaygan Yol",
+      "description": "Yol yüzeyinin kaygan olabileceğini bildirir. Özellikle yağışlı havalarda dikkatli olunmalıdır.",
+      "imageUrl": "assets/images/signs/t_8.png"
+    },
+    {
+      "code": "T-9",
+      "name": "Gevşek Malzemeli Zemin",
+      "description": "Yol yüzeyinde gevşek malzeme (çakıl, taş vs.) bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_9.png"
+    },
+    {
+      "code": "T-10",
+      "name": "Gevşek Şev",
+      "description": "Yol kenarında gevşek şev olduğunu ve taş düşebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_10.png"
+    },
+    {
+      "code": "T-11",
+      "name": "Yaya Geçidi",
+      "description": "İleride yaya geçidi bulunduğunu bildirir. Yayalara yol verilmelidir.",
+      "imageUrl": "assets/images/signs/t_11.png"
+    },
+    {
+      "code": "T-12",
+      "name": "Okul Geçidi",
+      "description": "İleride okul geçidi bulunduğunu bildirir. Öğrencilere karşı dikkatli olunmalıdır.",
+      "imageUrl": "assets/images/signs/t_12.png"
+    },
+    {
+      "code": "T-13",
+      "name": "Bisiklet Geçebilir",
+      "description": "Yolda bisiklet geçişi olabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_13.png"
+    },
+    {
+      "code": "T-14a",
+      "name": "Ehli Hayvanlar Geçebilir",
+      "description": "Yolda evcil hayvan geçişi olabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_14a.png"
+    },
+    {
+      "code": "T-14b",
+      "name": "Vahşi Hayvanlar Geçebilir",
+      "description": "Yolda yabani hayvan geçişi olabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_14b.png"
+    },
+    {
+      "code": "T-15",
+      "name": "Yolda Çalışma",
+      "description": "İleride yol çalışması yapıldığını bildirir. Hız azaltılmalıdır.",
+      "imageUrl": "assets/images/signs/t_15.png"
+    },
+    {
+      "code": "T-16",
+      "name": "Işıklı İşaret Cihazı",
+      "description": "İleride ışıklı trafik işaret cihazı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_16.png"
+    },
+    {
+      "code": "T-17",
+      "name": "Havalimanı (Alçak Uçuş)",
+      "description": "Yakın çevrede havalimanı olduğunu ve alçak uçuş yapılabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_17.png"
+    },
+    {
+      "code": "T-18",
+      "name": "Yandan Rüzgar",
+      "description": "Yolda güçlü yandan rüzgar olabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_18.png"
+    },
+    {
+      "code": "T-19",
+      "name": "İki Yönlü Trafik",
+      "description": "Tek yönlü yolun ileride iki yönlü trafiğe dönüştüğünü bildirir.",
+      "imageUrl": "assets/images/signs/t_19.png"
+    },
+    {
+      "code": "T-20",
+      "name": "Dikkat",
+      "description": "İleride dikkat edilmesi gereken bir durum olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_20.png"
+    },
+    {
+      "code": "T-21",
+      "name": "Kontrolsüz Kavşak",
+      "description": "İleride kontrolsüz kavşak bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_21.png"
+    },
+    {
+      "code": "T-22a",
+      "name": "Ana Yol-Tali Yol Kavşağı",
+      "description": "İleride ana yol ve tali yol kavşağı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_22a.png"
+    },
+    {
+      "code": "T-22b",
+      "name": "Ana Yol-Tali Yol Kavşağı",
+      "description": "İleride ana yol ve tali yol kavşağı bulunduğunu bildirir (farklı açı).",
+      "imageUrl": "assets/images/signs/t_22b.png"
+    },
+    {
+      "code": "T-22c",
+      "name": "Ana Yol-Tali Yol Kavşağı",
+      "description": "İleride ana yol ve tali yol kavşağı bulunduğunu bildirir (T tipi).",
+      "imageUrl": "assets/images/signs/t_22c.png"
+    },
+    {
+      "code": "T-22d",
+      "name": "Ana Yol-Tali Yol Kavşağı",
+      "description": "İleride ana yol ve tali yol kavşağı bulunduğunu bildirir (Y tipi).",
+      "imageUrl": "assets/images/signs/t_22d.png"
+    },
+    {
+      "code": "T-22e",
+      "name": "Ana Yol-Tali Yol Kavşağı",
+      "description": "İleride ana yol ve tali yol kavşağı bulunduğunu bildirir (çatal).",
+      "imageUrl": "assets/images/signs/t_22e.png"
+    },
+    {
+      "code": "T-23a",
+      "name": "Sağdan Ana Yola Giriş",
+      "description": "Sağdan ana yola giriş yapıldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_23a.png"
+    },
+    {
+      "code": "T-23b",
+      "name": "Soldan Ana Yola Giriş",
+      "description": "Soldan ana yola giriş yapıldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_23b.png"
+    },
+    {
+      "code": "T-24",
+      "name": "Dönel Kavşak",
+      "description": "İleride dönel kavşak (göbek) bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_24.png"
+    },
+    {
+      "code": "T-25",
+      "name": "Kontrollü Demiryolu Geçidi",
+      "description": "İleride bariyerli veya ışıklı demiryolu geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_25.png"
+    },
+    {
+      "code": "T-26",
+      "name": "Kontrolsüz Demiryolu Geçidi",
+      "description": "İleride bariyersiz demiryolu geçidi bulunduğunu bildirir. Çok dikkatli olunmalıdır.",
+      "imageUrl": "assets/images/signs/t_26.png"
+    },
+    {
+      "code": "T-27a",
+      "name": "Kontrolsüz Demiryolu Geçidi (Tek Hat)",
+      "description": "Kontrolsüz tek hatlı demiryolu geçidini bildirir.",
+      "imageUrl": "assets/images/signs/t_27a.png"
+    },
+    {
+      "code": "T-27b",
+      "name": "Kontrolsüz Demiryolu Geçidi (En az 2 Hat)",
+      "description": "Kontrolsüz çok hatlı demiryolu geçidini bildirir.",
+      "imageUrl": "assets/images/signs/t_27b.png"
+    },
+    {
+      "code": "T-28a",
+      "name": "Demiryolu Geçidi Yaklaşım (Sağ) - 300m",
+      "description": "Demiryolu geçidine 300 metre mesafede olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_28a.png"
+    },
+    {
+      "code": "T-28b",
+      "name": "Demiryolu Geçidi Yaklaşım (Sol) - 300m",
+      "description": "Demiryolu geçidine 300 metre mesafede olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_28b.png"
+    },
+    {
+      "code": "T-29a",
+      "name": "Demiryolu Geçidi Yaklaşım (Sağ) - 200m",
+      "description": "Demiryolu geçidine 200 metre mesafede olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_29a.png"
+    },
+    {
+      "code": "T-29b",
+      "name": "Demiryolu Geçidi Yaklaşım (Sol) - 200m",
+      "description": "Demiryolu geçidine 200 metre mesafede olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_29b.png"
+    },
+    {
+      "code": "T-30a",
+      "name": "Demiryolu Geçidi Yaklaşım (Sağ) - 100m",
+      "description": "Demiryolu geçidine 100 metre mesafede olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_30a.png"
+    },
+    {
+      "code": "T-30b",
+      "name": "Demiryolu Geçidi Yaklaşım (Sol) - 100m",
+      "description": "Demiryolu geçidine 100 metre mesafede olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_30b.png"
+    },
+    {
+      "code": "T-31a",
+      "name": "Köprü Başı Levhası (Sağ)",
+      "description": "Köprü başlangıcını ve genişliğini bildirir.",
+      "imageUrl": "assets/images/signs/t_31a.png"
+    },
+    {
+      "code": "T-31b",
+      "name": "Köprü Başı Levhası (Sol)",
+      "description": "Köprü başlangıcını ve genişliğini bildirir.",
+      "imageUrl": "assets/images/signs/t_31b.png"
+    },
+    {
+      "code": "T-32",
+      "name": "Engel İşareti",
+      "description": "Yol üzerinde engel bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_32.png"
+    },
+    {
+      "code": "T-33a",
+      "name": "Tehlikeli Viraj Yön Levhası",
+      "description": "Tehlikeli virajın yönünü gösteren levha.",
+      "imageUrl": "assets/images/signs/t_33a.png"
+    },
+    {
+      "code": "T-33b",
+      "name": "Tehlikeli Viraj Yön Levhası",
+      "description": "Tehlikeli virajın yönünü gösteren levha (çoklu ok).",
+      "imageUrl": "assets/images/signs/t_33b.png"
+    },
+    {
+      "code": "T-33c",
+      "name": "Tehlikeli Viraj Yön Levhası",
+      "description": "Tehlikeli virajın yönünü gösteren levha (tek yönlü).",
+      "imageUrl": "assets/images/signs/t_33c.png"
+    },
+    {
+      "code": "T-33d",
+      "name": "Onarım Yaklaşım Levhası (Sağ)",
+      "description": "Onarım bölgesine yaklaşıldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_33d.png"
+    },
+    {
+      "code": "T-33e",
+      "name": "Onarım Yaklaşım Levhası (Sol)",
+      "description": "Onarım bölgesine yaklaşıldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_33e.png"
+    },
+    {
+      "code": "T-33f",
+      "name": "Onarım Yaklaşım Levhası",
+      "description": "Onarım bölgesine yaklaşıldığını bildirir.",
+      "imageUrl": "assets/images/signs/t_33f.png"
+    },
+    {
+      "code": "T-34a",
+      "name": "Refüj Başı Ek Levhası (Sağ)",
+      "description": "Refüj başlangıcını bildirir.",
+      "imageUrl": "assets/images/signs/t_34a.png"
+    },
+    {
+      "code": "T-34b",
+      "name": "Refüj Başı Ek Levhası (Sol)",
+      "description": "Refüj başlangıcını bildirir.",
+      "imageUrl": "assets/images/signs/t_34b.png"
+    },
+    {
+      "code": "T-35",
+      "name": "Dönüş Adası Ek Levhası",
+      "description": "Dönüş adasını bildirir.",
+      "imageUrl": "assets/images/signs/t_35.png"
+    },
+    {
+      "code": "T-36",
+      "name": "Düşük Banket",
+      "description": "Yol kenarında düşük banket olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_36.png"
+    },
+    {
+      "code": "T-37",
+      "name": "Gizli Buzlanma",
+      "description": "Yol yüzeyinde gizli buzlanma olabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_37.png"
+    },
+    {
+      "code": "T-38",
+      "name": "Trafik Sıkışıklığı",
+      "description": "İleride trafik sıkışıklığı olabileceğini bildirir.",
+      "imageUrl": "assets/images/signs/t_38.png"
+    },
+    {
+      "code": "T-39",
+      "name": "Tramvay Hattı ile Oluşan Kavşak",
+      "description": "Tramvay hattı ile kavşak oluştuğunu bildirir.",
+      "imageUrl": "assets/images/signs/t_39.png"
+    }
+  ],
+  "trafikTanzim": [
+    {
+      "code": "TT-1",
+      "name": "Yol Ver",
+      "description": "Ana yoldan gelen araçlara yol verilmesi gerektiğini bildirir. Dur işareti kadar kesin durma gerektirmez ama yol verme zorunludur.",
+      "imageUrl": "assets/images/signs/tt_1.png"
+    },
+    {
+      "code": "TT-2",
+      "name": "Dur",
+      "description": "Mutlaka durulması ve yol kontrolü yapılması gerektiğini bildirir. En önemli trafik işaretlerinden biridir.",
+      "imageUrl": "assets/images/signs/tt_2.png"
+    },
+    {
+      "code": "TT-3",
+      "name": "Karşıdan Gelene Yol Ver",
+      "description": "Dar yolda karşıdan gelen araca yol verilmesi gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_3.png"
+    },
+    {
+      "code": "TT-4",
+      "name": "Girişi Olmayan Yol",
+      "description": "Tek yönlü yolun ters istikametinden giriş yapılamayacağını bildirir.",
+      "imageUrl": "assets/images/signs/tt_4.png"
+    },
+    {
+      "code": "TT-5",
+      "name": "Taşıt Trafiğine Kapalı Yol",
+      "description": "Her türlü taşıt trafiğine kapalı yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_5.png"
+    },
+    {
+      "code": "TT-6",
+      "name": "Motosiklet Hariç Motorlu Taşıt Trafiğine Kapalı Yol",
+      "description": "Motosiklet hariç motorlu taşıtların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_6.png"
+    },
+    {
+      "code": "TT-7",
+      "name": "Motosiklet Giremez",
+      "description": "Motosikletlerin giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_7.png"
+    },
+    {
+      "code": "TT-8",
+      "name": "Bisiklet Giremez",
+      "description": "Bisikletlerin giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_8.png"
+    },
+    {
+      "code": "TT-9",
+      "name": "Motorlu Bisiklet Giremez",
+      "description": "Motorlu bisikletlerin giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_9.png"
+    },
+    {
+      "code": "TT-10a",
+      "name": "Kamyon Giremez",
+      "description": "Kamyonların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_10a.png"
+    },
+    {
+      "code": "TT-10b",
+      "name": "Otobüs Giremez",
+      "description": "Otobüslerin giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_10b.png"
+    },
+    {
+      "code": "TT-11",
+      "name": "Treyler Giremez",
+      "description": "Treylerlerin giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_11.png"
+    },
+    {
+      "code": "TT-12",
+      "name": "Yaya Giremez",
+      "description": "Yayaların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_12.png"
+    },
+    {
+      "code": "TT-13",
+      "name": "At Arabası Giremez",
+      "description": "At arabalarının giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_13.png"
+    },
+    {
+      "code": "TT-14",
+      "name": "El Arabası Giremez",
+      "description": "El arabalarının giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_14.png"
+    },
+    {
+      "code": "TT-15",
+      "name": "Traktör Giremez",
+      "description": "Traktörlerin giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_15.png"
+    },
+    {
+      "code": "TT-16a",
+      "name": "Patlayıcı ve Parlayıcı Madde Taşıyan Taşıt Giremez",
+      "description": "Patlayıcı ve parlayıcı madde taşıyan araçların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_16a.png"
+    },
+    {
+      "code": "TT-16b",
+      "name": "Tehlikeli Madde Taşıyan Taşıt Giremez",
+      "description": "Tehlikeli madde taşıyan araçların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_16b.png"
+    },
+    {
+      "code": "TT-17",
+      "name": "Su Kirletici Madde Taşıyan Taşıt Giremez",
+      "description": "Su kirletici madde taşıyan araçların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_17.png"
+    },
+    {
+      "code": "TT-18",
+      "name": "Motorlu Taşıt Giremez",
+      "description": "Motorlu taşıtların giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_18.png"
+    },
+    {
+      "code": "TT-19",
+      "name": "Taşıt Giremez",
+      "description": "Hiçbir taşıtın giremeyeceği yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_19.png"
+    },
+    {
+      "code": "TT-20",
+      "name": "Genişliği ... Metreden Fazla Olan Taşıt Giremez",
+      "description": "Belirtilen genişlikten fazla olan taşıtların giremeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_20.png"
+    },
+    {
+      "code": "TT-21",
+      "name": "Yüksekliği ... Metreden Fazla Olan Taşıt Giremez",
+      "description": "Belirtilen yükseklikten fazla olan taşıtların giremeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_21.png"
+    },
+    {
+      "code": "TT-22",
+      "name": "Uzunluğu ... Metreden Fazla Olan Taşıt Giremez",
+      "description": "Belirtilen uzunluktan fazla olan taşıtların giremeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_22.png"
+    },
+    {
+      "code": "TT-23",
+      "name": "Dingil Başına ... Tondan Fazla Yük Düşen Taşıt Giremez",
+      "description": "Dingil ağırlığı belirtilen değeri aşan araçların giremeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_23.png"
+    },
+    {
+      "code": "TT-24",
+      "name": "Yüklü Ağırlığı ... Tondan Fazla Olan Taşıt Giremez",
+      "description": "Toplam ağırlığı belirtilen değeri aşan araçların giremeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_24.png"
+    },
+    {
+      "code": "TT-25",
+      "name": "Öndeki Taşıt ... Metreden Daha Yakın Takip Edilemez",
+      "description": "Araçlar arası minimum takip mesafesini bildirir.",
+      "imageUrl": "assets/images/signs/tt_25.png"
+    },
+    {
+      "code": "TT-26a",
+      "name": "Sağa Dönülmez",
+      "description": "Sağa dönüşün yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_26a.png"
+    },
+    {
+      "code": "TT-26b",
+      "name": "Sola Dönülmez",
+      "description": "Sola dönüşün yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_26b.png"
+    },
+    {
+      "code": "TT-26c",
+      "name": "U Dönüşü Yapılmaz",
+      "description": "U dönüşünün yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_26c.png"
+    },
+    {
+      "code": "TT-27",
+      "name": "Öndeki Taşıtı Geçmek Yasaktır",
+      "description": "Sollama yapmanın yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_27.png"
+    },
+    {
+      "code": "TT-28",
+      "name": "Yük Taşıtlarının Öndeki Taşıtı Geçmesi Yasaktır",
+      "description": "Kamyon ve ağır vasıtaların sollama yapmasının yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_28.png"
+    },
+    {
+      "code": "TT-29a",
+      "name": "Azami Hız Sınırlaması",
+      "description": "Belirtilen hızın üzerinde sürülemeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_29a.png"
+    },
+    {
+      "code": "TT-29b",
+      "name": "Azami Hız Bölgesi",
+      "description": "Bölge içinde geçerli azami hız sınırını bildirir.",
+      "imageUrl": "assets/images/signs/tt_29b.png"
+    },
+    {
+      "code": "TT-30",
+      "name": "Sesli İkaz Cihazlarının Kullanımı Yasaktır",
+      "description": "Korna çalmanın yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_30.png"
+    },
+    {
+      "code": "TT-31",
+      "name": "Gümrük (Durmadan Geçmek Yasaktır)",
+      "description": "Gümrük noktasında durulması gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_31.png"
+    },
+    {
+      "code": "TT-32",
+      "name": "Bütün Yasaklama ve Kısıtlamaların Sonu",
+      "description": "Tüm yasaklama ve kısıtlamaların sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_32.png"
+    },
+    {
+      "code": "TT-33a",
+      "name": "Hız Sınırlaması Sonu",
+      "description": "Hız sınırlamasının sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_33a.png"
+    },
+    {
+      "code": "TT-33b",
+      "name": "Azami Hız Bölgesi Sonu",
+      "description": "Hız sınırlı bölgenin sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_33b.png"
+    },
+    {
+      "code": "TT-34a",
+      "name": "Geçme Yasağı Sonu",
+      "description": "Sollama yasağının sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_34a.png"
+    },
+    {
+      "code": "TT-34b",
+      "name": "Kamyonlar İçin Geçme Yasağı Sonu",
+      "description": "Kamyonlar için sollama yasağının sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_34b.png"
+    },
+    {
+      "code": "TT-35a",
+      "name": "Sağa Mecburi Yön",
+      "description": "Sadece sağa dönülebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35a.png"
+    },
+    {
+      "code": "TT-35b",
+      "name": "Sola Mecburi Yön",
+      "description": "Sadece sola dönülebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35b.png"
+    },
+    {
+      "code": "TT-35c",
+      "name": "İleri Mecburi Yön",
+      "description": "Sadece ileri gidilebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35c.png"
+    },
+    {
+      "code": "TT-35d",
+      "name": "İleri ve Sağa Mecburi Yön",
+      "description": "Sadece ileri veya sağa gidilebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35d.png"
+    },
+    {
+      "code": "TT-35e",
+      "name": "İleri ve Sola Mecburi Yön",
+      "description": "Sadece ileri veya sola gidilebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35e.png"
+    },
+    {
+      "code": "TT-35f",
+      "name": "Sağa ve Sola Mecburi Yön",
+      "description": "Sadece sağa veya sola gidilebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35f.png"
+    },
+    {
+      "code": "TT-35g",
+      "name": "İleriden Sağa Mecburi Yön",
+      "description": "İleriden sağa dönülmesi gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35g.png"
+    },
+    {
+      "code": "TT-35h",
+      "name": "İleriden Sola Mecburi Yön",
+      "description": "İleriden sola dönülmesi gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_35h.png"
+    },
+    {
+      "code": "TT-36a",
+      "name": "Sağdan Gidiniz",
+      "description": "Engelin sağından geçilmesi gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_36a.png"
+    },
+    {
+      "code": "TT-36b",
+      "name": "Soldan Gidiniz",
+      "description": "Engelin solundan geçilmesi gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_36b.png"
+    },
+    {
+      "code": "TT-36c",
+      "name": "Her İki Yandan Gidiniz",
+      "description": "Engelin her iki tarafından da geçilebileceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_36c.png"
+    },
+    {
+      "code": "TT-37",
+      "name": "Ada Etrafında Dönünüz",
+      "description": "Dönel kavşakta dönüş yönünü bildirir.",
+      "imageUrl": "assets/images/signs/tt_37.png"
+    },
+    {
+      "code": "TT-38a",
+      "name": "Mecburi Bisiklet Yolu",
+      "description": "Bisikletlerin kullanması gereken yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_38a.png"
+    },
+    {
+      "code": "TT-38b",
+      "name": "Mecburi Bisiklet Yolu Sonu",
+      "description": "Mecburi bisiklet yolunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_38b.png"
+    },
+    {
+      "code": "TT-39a",
+      "name": "Mecburi Yaya Yolu",
+      "description": "Yayaların kullanması gereken yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_39a.png"
+    },
+    {
+      "code": "TT-39b",
+      "name": "Mecburi Yaya Yolu Sonu",
+      "description": "Mecburi yaya yolunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_39b.png"
+    },
+    {
+      "code": "TT-40a",
+      "name": "Mecburi Atlı Yolu",
+      "description": "Atlıların kullanması gereken yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_40a.png"
+    },
+    {
+      "code": "TT-40b",
+      "name": "Mecburi Atlı Yolu Sonu",
+      "description": "Mecburi atlı yolunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_40b.png"
+    },
+    {
+      "code": "TT-41a",
+      "name": "Mecburi Asgari Hız",
+      "description": "Belirtilen hızın altında sürülemeyeceğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_41a.png"
+    },
+    {
+      "code": "TT-41b",
+      "name": "Mecburi Asgari Hız Sonu",
+      "description": "Asgari hız zorunluluğunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_41b.png"
+    },
+    {
+      "code": "TT-42a",
+      "name": "Zincir Takmak Mecburidir",
+      "description": "Araçlara zincir takılması gerektiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_42a.png"
+    },
+    {
+      "code": "TT-42b",
+      "name": "Zincir Takma Mecburiyeti Sonu",
+      "description": "Zincir takma zorunluluğunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_42b.png"
+    },
+    {
+      "code": "TT-43",
+      "name": "Ağır Taşıtlar ve Tehlikeli Madde Taşıyan Taşıtlar İçin Mecburi Yön",
+      "description": "Ağır taşıtlar ve tehlikeli madde taşıyan araçların gitmesi gereken yönü bildirir.",
+      "imageUrl": "assets/images/signs/tt_43.png"
+    },
+    {
+      "code": "TT-44a",
+      "name": "Yayalar ve Bisikletliler Tarafından Kullanılabilen Yol",
+      "description": "Yaya ve bisiklet ortak kullanım yolunu bildirir.",
+      "imageUrl": "assets/images/signs/tt_44a.png"
+    },
+    {
+      "code": "TT-44b",
+      "name": "Yayalar ve Bisikletliler Tarafından Kullanılabilen Yolun Sonu",
+      "description": "Ortak kullanım yolunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_44b.png"
+    },
+    {
+      "code": "TT-45a",
+      "name": "Yayalar ve Bisikletliler İçin Ayrı Ayrı Kullanılabilen Yol",
+      "description": "Yaya ve bisiklet için ayrı şeritli yolu bildirir.",
+      "imageUrl": "assets/images/signs/tt_45a.png"
+    },
+    {
+      "code": "TT-45b",
+      "name": "Yayalar ve Bisikletliler İçin Ayrı Ayrı Kullanılabilen Yolun Sonu",
+      "description": "Ayrı şeritli yolun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/tt_45b.png"
+    }
+  ],
+  "bilgi": [
+    {
+      "code": "B-1a",
+      "name": "Kavşak Öncesi Yön Levhası",
+      "description": "Kavşaktan önce yön bilgisi veren levha.",
+      "imageUrl": "assets/images/signs/b_1a.png"
+    },
+    {
+      "code": "B-1b",
+      "name": "Kaplama Üstü Yön Levhası",
+      "description": "Yol kaplaması üzerindeki yön levhası.",
+      "imageUrl": "assets/images/signs/b_1b.png"
+    },
+    {
+      "code": "B-1c",
+      "name": "Konsola Asılan Yön Levhaları",
+      "description": "Konsola asılan T ve L tipi yön levhaları.",
+      "imageUrl": "assets/images/signs/b_1c.png"
+    },
+    {
+      "code": "B-1d",
+      "name": "Refüj Ortası Yön Levhası",
+      "description": "Refüj ortasındaki yön levhası.",
+      "imageUrl": "assets/images/signs/b_1d.png"
+    },
+    {
+      "code": "B-2a",
+      "name": "Girişi Olmayan Yol Kavşağı",
+      "description": "Girişi olmayan yol kavşağını bildirir.",
+      "imageUrl": "assets/images/signs/b_2a.png"
+    },
+    {
+      "code": "B-2b",
+      "name": "Girişi Olmayan Yol Kavşağı",
+      "description": "Girişi olmayan yol kavşağını bildirir.",
+      "imageUrl": "assets/images/signs/b_2b.png"
+    },
+    {
+      "code": "B-2c",
+      "name": "Girişi Olmayan Yol Kavşağı",
+      "description": "Girişi olmayan yol kavşağını bildirir.",
+      "imageUrl": "assets/images/signs/b_2c.png"
+    },
+    {
+      "code": "B-2d",
+      "name": "Girişi Olmayan Yol Kavşağı",
+      "description": "Girişi olmayan yol kavşağını bildirir.",
+      "imageUrl": "assets/images/signs/b_2d.png"
+    },
+    {
+      "code": "B-3",
+      "name": "İleriki Kavşakta Sola Dönüş Yasağı",
+      "description": "İleriki kavşakta sola dönüşün yasak olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_3.png"
+    },
+    {
+      "code": "B-4",
+      "name": "Kavşak Öncesi Şerit Seçimi Levhası",
+      "description": "Kavşak öncesi şerit seçimi bilgisi verir.",
+      "imageUrl": "assets/images/signs/b_4.png"
+    },
+    {
+      "code": "B-5a",
+      "name": "Kavşak İçi Yön Levhası",
+      "description": "Kavşak içindeki yönleri bildirir.",
+      "imageUrl": "assets/images/signs/b_5a.png"
+    },
+    {
+      "code": "B-5b",
+      "name": "Kavşak İçi Yön Levhası (Turistik Mahal)",
+      "description": "Turistik yerlere yön gösteren levha.",
+      "imageUrl": "assets/images/signs/b_5b.png"
+    },
+    {
+      "code": "B-5c",
+      "name": "Kavşak İçi Yön Levhası (Metro)",
+      "description": "Metro istasyonuna yön gösteren levha.",
+      "imageUrl": "assets/images/signs/b_5c.png"
+    },
+    {
+      "code": "B-5d",
+      "name": "Kavşak İçi Yön Levhası (Köy ve Mahalle)",
+      "description": "Köy ve mahallelere yön gösteren levha.",
+      "imageUrl": "assets/images/signs/b_5d.png"
+    },
+    {
+      "code": "B-6",
+      "name": "Kavşak İçi Yön Levhası (Havalimanı)",
+      "description": "Havalimanına yön gösteren levha.",
+      "imageUrl": "assets/images/signs/b_6.png"
+    },
+    {
+      "code": "B-7",
+      "name": "Kavşak İçi Yön Levhası (Kamp Yeri)",
+      "description": "Kamp yerine yön gösteren levha.",
+      "imageUrl": "assets/images/signs/b_7.png"
+    },
+    {
+      "code": "B-8a",
+      "name": "Türkiye Devlet Sınırı Levhası",
+      "description": "Türkiye devlet sınırına gelindiğini bildirir.",
+      "imageUrl": "assets/images/signs/b_8a.png"
+    },
+    {
+      "code": "B-8b",
+      "name": "İl Sınırı Levhası",
+      "description": "İl sınırına gelindiğini bildirir.",
+      "imageUrl": "assets/images/signs/b_8b.png"
+    },
+    {
+      "code": "B-8c",
+      "name": "Türkiye Hız Sınırları Levhası",
+      "description": "Türkiye'deki genel hız sınırlarını bildirir.",
+      "imageUrl": "assets/images/signs/b_8c.png"
+    },
+    {
+      "code": "B-9",
+      "name": "Meskun Mahal Levhası",
+      "description": "Yerleşim yerine girildiğini bildirir (İl, İlçe, Mahalle, Köy, Belde).",
+      "imageUrl": "assets/images/signs/b_9.png"
+    },
+    {
+      "code": "B-10",
+      "name": "Meskun Mahal Sonu Levhası",
+      "description": "Yerleşim yerinden çıkıldığını bildirir.",
+      "imageUrl": "assets/images/signs/b_10.png"
+    },
+    {
+      "code": "B-11a",
+      "name": "Coğrafi Bilgi Levhası (Dağ Geçidi)",
+      "description": "Dağ geçidinin adını ve yüksekliğini bildirir.",
+      "imageUrl": "assets/images/signs/b_11a.png"
+    },
+    {
+      "code": "B-11b",
+      "name": "Coğrafi Bilgi Levhası (Köprü-Nehir)",
+      "description": "Köprü veya nehir adını bildirir.",
+      "imageUrl": "assets/images/signs/b_11b.png"
+    },
+    {
+      "code": "B-11c",
+      "name": "Coğrafi Bilgi Levhası (Dağ)",
+      "description": "Dağ adını bildirir.",
+      "imageUrl": "assets/images/signs/b_11c.png"
+    },
+    {
+      "code": "B-11d",
+      "name": "Coğrafi Bilgi Levhası (Göl)",
+      "description": "Göl adını bildirir.",
+      "imageUrl": "assets/images/signs/b_11d.png"
+    },
+    {
+      "code": "B-12a",
+      "name": "Karayolları Teşkilatına Ait Bilgi Levhası",
+      "description": "Karayolları bölge merkezi bilgisi verir.",
+      "imageUrl": "assets/images/signs/b_12a.png"
+    },
+    {
+      "code": "B-13a",
+      "name": "Meskun Mahal ve Kavşak Çıkışı Mesafe Levhası",
+      "description": "Yerleşim yeri ve kavşak çıkışına mesafeyi bildirir.",
+      "imageUrl": "assets/images/signs/b_13a.png"
+    },
+    {
+      "code": "B-13b",
+      "name": "Mesafe Levhası",
+      "description": "Çeşitli yerlere mesafeyi bildirir.",
+      "imageUrl": "assets/images/signs/b_13b.png"
+    },
+    {
+      "code": "B-14a",
+      "name": "Yaya Geçidi",
+      "description": "Yaya geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_14a.png"
+    },
+    {
+      "code": "B-14b",
+      "name": "Okul Geçidi",
+      "description": "Okul geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_14b.png"
+    },
+    {
+      "code": "B-14c",
+      "name": "Yaya Bölgesi",
+      "description": "Yaya bölgesini bildirir.",
+      "imageUrl": "assets/images/signs/b_14c.png"
+    },
+    {
+      "code": "B-15",
+      "name": "Hastane",
+      "description": "Yakın çevrede hastane bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_15.png"
+    },
+    {
+      "code": "B-16a",
+      "name": "Tek Yönlü Yol",
+      "description": "Yolun tek yönlü olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_16a.png"
+    },
+    {
+      "code": "B-16b",
+      "name": "İleri Tek Yönlü Yol",
+      "description": "İleride tek yönlü yol olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_16b.png"
+    },
+    {
+      "code": "B-17",
+      "name": "İleri Çıkmaz Yol",
+      "description": "Yolun ileride çıkmaz olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_17.png"
+    },
+    {
+      "code": "B-18",
+      "name": "Otoyol Başlangıcı",
+      "description": "Otoyol güzergahının başladığını bildirir.",
+      "imageUrl": "assets/images/signs/b_18.png"
+    },
+    {
+      "code": "B-19",
+      "name": "Otoyol Sonu",
+      "description": "Otoyol güzergahının sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/b_19.png"
+    },
+    {
+      "code": "B-20",
+      "name": "Motorlu Taşıt Yolu Başlangıcı",
+      "description": "Motorlu taşıt yolunun başladığını bildirir.",
+      "imageUrl": "assets/images/signs/b_20.png"
+    },
+    {
+      "code": "B-21",
+      "name": "Motorlu Taşıt Yolu Sonu",
+      "description": "Motorlu taşıt yolunun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/b_21.png"
+    },
+    {
+      "code": "B-22",
+      "name": "Durak",
+      "description": "Toplu taşıma durağını bildirir.",
+      "imageUrl": "assets/images/signs/b_22.png"
+    },
+    {
+      "code": "B-23",
+      "name": "İlk Yardım",
+      "description": "İlk yardım istasyonu bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_23.png"
+    },
+    {
+      "code": "B-24",
+      "name": "Tamirhane",
+      "description": "Tamirhane bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_24.png"
+    },
+    {
+      "code": "B-25",
+      "name": "Telefon",
+      "description": "Telefon bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_25.png"
+    },
+    {
+      "code": "B-26",
+      "name": "Akaryakıt İstasyonu",
+      "description": "Benzin/akaryakıt istasyonu bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_26.png"
+    },
+    {
+      "code": "B-27",
+      "name": "Otel veya Motel",
+      "description": "Konaklama tesisi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_27.png"
+    },
+    {
+      "code": "B-28",
+      "name": "Lokanta",
+      "description": "Lokanta/restoran bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_28.png"
+    },
+    {
+      "code": "B-29",
+      "name": "Çayhane veya Kafeterya",
+      "description": "Çay/kahve servisi yapan yer bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_29.png"
+    },
+    {
+      "code": "B-30",
+      "name": "Çeşme",
+      "description": "Çeşme/su bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_30.png"
+    },
+    {
+      "code": "B-31",
+      "name": "Piknik Yeri",
+      "description": "Piknik alanı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_31.png"
+    },
+    {
+      "code": "B-32",
+      "name": "Yürüyüş Başlangıcı",
+      "description": "Yürüyüş parkuru başlangıcını bildirir.",
+      "imageUrl": "assets/images/signs/b_32.png"
+    },
+    {
+      "code": "B-33",
+      "name": "Kamp Yeri",
+      "description": "Kamp alanı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_33.png"
+    },
+    {
+      "code": "B-34",
+      "name": "Karavanlı Kamp Yeri",
+      "description": "Karavan için kamp alanı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_34.png"
+    },
+    {
+      "code": "B-35",
+      "name": "Çadırlı ve Karavanlı Kamp Yeri",
+      "description": "Çadır ve karavan için kamp alanı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_35.png"
+    },
+    {
+      "code": "B-36",
+      "name": "Gençlik Kampı",
+      "description": "Gençlik kampı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_36.png"
+    },
+    {
+      "code": "B-37",
+      "name": "Önceliği Olan Yön",
+      "description": "Geçiş önceliğinin hangi yönde olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_37.png"
+    },
+    {
+      "code": "B-38",
+      "name": "Anayol",
+      "description": "Anayol güzergahında olunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_38.png"
+    },
+    {
+      "code": "B-39",
+      "name": "Anayol Sonu",
+      "description": "Anayol güzergahının sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/b_39.png"
+    },
+    {
+      "code": "B-40",
+      "name": "Jandarma",
+      "description": "Jandarma karakolu bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_40.png"
+    },
+    {
+      "code": "B-41",
+      "name": "Polis",
+      "description": "Polis merkezi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_41.png"
+    },
+    {
+      "code": "B-42",
+      "name": "Yangın Tehlikesi",
+      "description": "Yangın tehlikesi olan bölgeyi bildirir.",
+      "imageUrl": "assets/images/signs/b_42.png"
+    },
+    {
+      "code": "B-43",
+      "name": "Radyo",
+      "description": "Trafik radyo frekansını bildirir.",
+      "imageUrl": "assets/images/signs/b_43.png"
+    },
+    {
+      "code": "B-44",
+      "name": "Turizm Danışma",
+      "description": "Turizm danışma bürosu bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_44.png"
+    },
+    {
+      "code": "B-45a",
+      "name": "Yaya Alt Geçidi",
+      "description": "Yaya alt geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_45a.png"
+    },
+    {
+      "code": "B-45b",
+      "name": "Yaya Üst Geçidi",
+      "description": "Yaya üst geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_45b.png"
+    },
+    {
+      "code": "B-45c",
+      "name": "Rampalı Yaya Üst Geçidi",
+      "description": "Rampalı yaya üst geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_45c.png"
+    },
+    {
+      "code": "B-45d",
+      "name": "Rampalı Yaya Alt Geçidi",
+      "description": "Rampalı yaya alt geçidi bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_45d.png"
+    },
+    {
+      "code": "B-46",
+      "name": "Yüzme Yeri",
+      "description": "Yüzme alanı bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_46.png"
+    },
+    {
+      "code": "B-47",
+      "name": "Yüzülmez",
+      "description": "Yüzmenin yasak olduğu alanı bildirir.",
+      "imageUrl": "assets/images/signs/b_47.png"
+    },
+    {
+      "code": "B-48",
+      "name": "Bölünmüş Yol Öncesi Yön Levhası",
+      "description": "Bölünmüş yol başlangıcını ve yönleri bildirir.",
+      "imageUrl": "assets/images/signs/b_48.png"
+    },
+    {
+      "code": "B-49a",
+      "name": "Tünel",
+      "description": "Tünel girişini bildirir.",
+      "imageUrl": "assets/images/signs/b_49a.png"
+    },
+    {
+      "code": "B-49b",
+      "name": "Su Altı Tüneli",
+      "description": "Su altı tüneli girişini bildirir.",
+      "imageUrl": "assets/images/signs/b_49b.png"
+    },
+    {
+      "code": "B-50a",
+      "name": "Şerit Düzenleme Levhası",
+      "description": "Şerit düzenlemesi hakkında bilgi verir.",
+      "imageUrl": "assets/images/signs/b_50a.png"
+    },
+    {
+      "code": "B-56",
+      "name": "Yaya Öncelikli Yol",
+      "description": "Yayaların öncelikli olduğu yolu bildirir.",
+      "imageUrl": "assets/images/signs/b_56.png"
+    },
+    {
+      "code": "B-57",
+      "name": "Yaya Öncelikli Yolun Sonu",
+      "description": "Yaya öncelikli yolun sona erdiğini bildirir.",
+      "imageUrl": "assets/images/signs/b_57.png"
+    },
+    {
+      "code": "B-58a",
+      "name": "İstasyon",
+      "description": "Tren/metro istasyonunu bildirir.",
+      "imageUrl": "assets/images/signs/b_58a.png"
+    },
+    {
+      "code": "B-58b",
+      "name": "Otogar",
+      "description": "Otobüs terminalini bildirir.",
+      "imageUrl": "assets/images/signs/b_58b.png"
+    },
+    {
+      "code": "B-59",
+      "name": "Tramvay Durağı",
+      "description": "Tramvay durağını bildirir.",
+      "imageUrl": "assets/images/signs/b_59.png"
+    },
+    {
+      "code": "B-60",
+      "name": "Sanayi Bölgesi (OSB)",
+      "description": "Organize sanayi bölgesini bildirir.",
+      "imageUrl": "assets/images/signs/b_60.png"
+    },
+    {
+      "code": "B-61a",
+      "name": "Elektronik Denetleme Sistemi",
+      "description": "Elektronik denetleme (radar/kamera) bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/b_61a.png"
+    },
+    {
+      "code": "B-62",
+      "name": "Trafik Cebi",
+      "description": "Trafik cebini bildirir.",
+      "imageUrl": "assets/images/signs/b_62.png"
+    },
+    {
+      "code": "B-64",
+      "name": "Hız Sınırı Bölgesi",
+      "description": "Hız sınırlı bölgeyi bildirir.",
+      "imageUrl": "assets/images/signs/b_64.png"
+    }
+  ],
+  "duraklamaPark": [
+    {
+      "code": "P-1",
+      "name": "Park Etmek Yasaktır",
+      "description": "Park etmenin yasak olduğu yeri bildirir. Araç bırakılamaz.",
+      "imageUrl": "assets/images/signs/p_1.png"
+    },
+    {
+      "code": "P-2",
+      "name": "Duraklamak ve Park Etmek Yasaktır",
+      "description": "Duraklamanın ve park etmenin yasak olduğu yeri bildirir. Kısa süreli bile durulmaz.",
+      "imageUrl": "assets/images/signs/p_2.png"
+    },
+    {
+      "code": "P-3a",
+      "name": "Park Yeri",
+      "description": "Araç park edilebilecek alanı bildirir.",
+      "imageUrl": "assets/images/signs/p_3a.png"
+    },
+    {
+      "code": "P-3b",
+      "name": "Park Yeri (Eğik)",
+      "description": "Eğik park edilebilecek alanı bildirir.",
+      "imageUrl": "assets/images/signs/p_3b.png"
+    },
+    {
+      "code": "P-3c",
+      "name": "Park Yeri (Dik)",
+      "description": "Dik park edilebilecek alanı bildirir.",
+      "imageUrl": "assets/images/signs/p_3c.png"
+    },
+    {
+      "code": "P-3d",
+      "name": "Park Yeri (Sol)",
+      "description": "Sol tarafta park yeri olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/p_3d.png"
+    },
+    {
+      "code": "P-3e",
+      "name": "Park Yeri (Sağ)",
+      "description": "Sağ tarafta park yeri olduğunu bildirir.",
+      "imageUrl": "assets/images/signs/p_3e.png"
+    },
+    {
+      "code": "P-3f",
+      "name": "Kapalı Park Yeri",
+      "description": "Kapalı otopark bulunduğunu bildirir.",
+      "imageUrl": "assets/images/signs/p_3f.png"
+    },
+    {
+      "code": "P-3g",
+      "name": "Park Yeri (Metrodan Yararlanacaklar İçin)",
+      "description": "Metro kullanıcıları için park alanını bildirir.",
+      "imageUrl": "assets/images/signs/p_3g.png"
+    },
+    {
+      "code": "P-3h",
+      "name": "Park Yeri (Tramvaydan Yararlanacaklar İçin)",
+      "description": "Tramvay kullanıcıları için park alanını bildirir.",
+      "imageUrl": "assets/images/signs/p_3h.png"
+    }
+  ],
+  "otoyol": [
+    {
+      "code": "OY-1",
+      "name": "Kavşak İsim Levhası",
+      "description": "Otoyol kavşak adını bildirir."
+    },
+    {
+      "code": "OY-2",
+      "name": "Otoyol Rejimi Levhası",
+      "description": "Otoyol kurallarını bildirir."
+    },
+    {
+      "code": "OY-3",
+      "name": "Servis Alanı Levhası",
+      "description": "Otoyol servis alanını bildirir."
+    },
+    {
+      "code": "OY-4",
+      "name": "OGS Levhası",
+      "description": "Otomatik geçiş sistemi geçişini bildirir."
+    },
+    {
+      "code": "OY-5",
+      "name": "HGS Levhası",
+      "description": "Hızlı geçiş sistemi geçişini bildirir."
+    },
+    {
+      "code": "OY-6",
+      "name": "Başüstü Şerit Seçimi Levhası",
+      "description": "Otoyol şerit seçimi bilgisi verir."
+    },
+    {
+      "code": "OY-7",
+      "name": "Şerit Seçimi ve Kullanımı Levhası",
+      "description": "Şerit kullanımı kurallarını bildirir."
+    },
+    {
+      "code": "OY-8",
+      "name": "Park Alanı Levhası",
+      "description": "Otoyol park alanını bildirir."
+    },
+    {
+      "code": "OY-9",
+      "name": "Acil Durum Bilgi Levhası",
+      "description": "Acil durum bilgilerini içerir."
+    }
+  ]
+}

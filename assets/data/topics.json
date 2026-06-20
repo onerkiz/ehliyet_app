@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "ilk_yardim_0",
+    "title": "İlk Yardımın Temel İlkeleri",
+    "description": "Koru, Bildir, Kurtar",
+    "category": "ilk_yardim",
+    "order": 0,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "ilk_yardim_0_0",
+        "title": "İlk Yardımın Tanımı ve Amacı",
+        "content": "İlk yardım, herhangi bir kaza ya da yaşamı tehlikeye düşüren bir durumda, sağlık görevlilerinin yardımı sağlanıncaya kadar hayatın kurtarılması ya da durumun kötüleşmesini önlemek amacıyla olay yerinde, tıbbi araç gereç aranmaksızın mevcut araç ve gereçlerle yapılan ilaçsız uygulamalardır. Temel amacı; hayati tehlikeyi ortadan kaldırmak, durumun kötüye gitmesini engellemek ve iyileşmeyi kolaylaştırmaktır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "ilk_yardim_0_1",
+        "title": "Koru - Bildir - Kurtar",
+        "content": "İlk yardımın temel uygulamaları üç aşamada özetlenir:\n\nKORU: Olay yerinde önce kendinizin, sonra kazazedenin ve çevredekilerin güvenliğini sağlayın. İkinci bir kazanın olmasını önleyin.\n\nBİLDİR: Hızla 112 Acil Çağrı Merkezi'ni arayın. Kesin yer ve adres, kazazede sayısı ve durumları, kazanın türü hakkında bilgi verin. Sizden istenen bilgileri verene kadar telefonu kapatmayın.\n\nKURTAR: Kazazedeye bilinçli ve uygun ilk yardım uygulamalarını yaparak yardım gelene kadar yaşamını sürdürmesini sağlayın.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "ilk_yardim_0_2",
+        "title": "İlk Yardımcının Özellikleri",
+        "content": "İlk yardımcı, olay yerinde sakin ve kararlı olmalı, insan vücudu ile ilgili temel bilgilere sahip olmalıdır. Önce kendi can güvenliğini korumalı, eldiven gibi koruyucu malzeme kullanarak kan ve vücut sıvılarıyla doğrudan temastan kaçınmalıdır. Kazazedeyi gereksiz yere hareket ettirmemeli, onu sakinleştirip moral vermelidir. Kendi bilgi ve becerisinin sınırını aşan uygulamalardan kaçınmalıdır.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "ilk_yardim_0_3",
+        "title": "İlk Yardımda Yapılmaması Gerekenler",
+        "content": "• Bilinci kapalı kazazedeye ağızdan yiyecek veya içecek vermek\n• Kazazedeyi zorunlu olmadıkça yerinden oynatmak veya taşımak\n• Yaraya çıplak elle dokunmak\n• Kanı emmiş bezi yaradan çıkarmak (üzerine yeni bez eklenir)\n• Yetki ve bilgi dışında ilaç vermek\n• Saplanmış cisimleri çıkarmaya çalışmak\n• Panik yapmak ve telaşa kapılmak",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "ilk_yardim_0_4",
+        "title": "Sınav İpucu: Birden Fazla Yaralı Varsa",
+        "content": "Sınavda 'önce kime müdahale edilir?' sorusu sık çıkar. Cevap: Bağıran, ağlayan yaralı değil; sessiz olan, bilinci kapalı ve hayati tehlikesi olan yaralı önce değerlendirilir. Çünkü bağırabilen kişinin solunum yolu açıktır. Öncelik; bilinç kapalı, solunumu/dolaşımı bozuk olan kazazededir.",
+        "type": "tip",
+        "order": 4
+      },
+      {
+        "id": "ilk_yardim_0_5",
+        "title": "Acil Telefon Numarası",
+        "content": "Türkiye'de tüm acil durumlar için tek numara 112'dir. 112 ücretsizdir ve kontörsüz, şebekesiz telefonlardan da aranabilir. Arandığında sakin olunmalı, sorulan bilgiler eksiksiz verilmeli ve görevli izin vermeden telefon kapatılmamalıdır.",
+        "type": "text",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "ilk_yardim_1",
+    "title": "Hayati Bulgular",
+    "description": "Nabız, solunum, bilinç kontrolü",
+    "category": "ilk_yardim",
+    "order": 1,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "ilk_yardim_1_0",
+        "title": "Bilinç Durumunun Kontrolü",
+        "content": "Kazazedeye ulaşıldığında ilk olarak bilinç durumu değerlendirilir. Omuzlarından hafifçe dokunularak ve yüksek sesle 'İyi misiniz?' diye seslenilir. Yanıt veriyorsa bilinç açıktır. Hiçbir tepki yoksa bilinç kapalıdır; hemen 112 aranır ve solunum/dolaşım değerlendirmesine geçilir. Bilinci kapalı kazazedede dilin geriye kaçıp solunum yolunu tıkama riski vardır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "ilk_yardim_1_1",
+        "title": "Nabız Kontrolü",
+        "content": "Nabız, kalbin kasılmasıyla atardamarların hissedilen atımıdır. Yetişkinde nabız, boyun bölgesindeki şah damarından (karotis) kontrol edilir; iki parmakla (işaret ve orta parmak, asla başparmak değil) hafifçe bastırılır. Normal nabız sayısı yetişkinde dakikada 60-100 atımdır. Bebeklerde kol atardamarından bakılır. Nabzın hızlı ve zayıf olması şok belirtisi olabilir.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "ilk_yardim_1_2",
+        "title": "Solunum Kontrolü (Bak-Dinle-Hisset)",
+        "content": "Solunum, baş geriye alınıp çene yukarı kaldırılarak solunum yolu açıldıktan sonra 'bak-dinle-hisset' yöntemiyle 10 saniye değerlendirilir: Göğsün inip kalkmasına BAK, soluk sesini DİNLE, yanağında nefesi HİSSET. Normal solunum sayısı yetişkinde dakikada 12-20'dir. Solunum yoksa veya normal değilse temel yaşam desteğine başlanır.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "ilk_yardim_1_3",
+        "title": "Vücut Isısı ve Cilt Rengi",
+        "content": "Cildin rengi ve sıcaklığı dolaşım hakkında bilgi verir. Soluk, soğuk ve nemli cilt kanama veya şok belirtisi olabilir. Morarma (özellikle dudak ve tırnaklarda) oksijen yetersizliğini gösterir. Normal vücut sıcaklığı yaklaşık 36,5°C'dir.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "ilk_yardim_1_4",
+        "title": "Değerlendirme Sırası",
+        "content": "• Bilinç kontrolü (seslen, omuzdan dokun)\n• 112'yi ara / arattır\n• Solunum yolunu aç (baş geri-çene yukarı)\n• Solunum kontrolü (bak-dinle-hisset, 10 sn)\n• Dolaşım/nabız değerlendirmesi\n• Kanama ve diğer yaralanmaların kontrolü",
+        "type": "list",
+        "order": 4
+      },
+      {
+        "id": "ilk_yardim_1_5",
+        "title": "Sınav İpucu: Göz Bebeği Kontrolü",
+        "content": "Göz bebeklerinin ışığa tepkisi beyin durumu hakkında bilgi verir. Normalde ışıkta küçülür, karanlıkta büyür. Her iki göz bebeğinin eşit olması beklenir. Işığa tepki vermeyen veya birbirinden farklı büyüklükte göz bebekleri ciddi beyin yaralanmasına işaret edebilir.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "ilk_yardim_2",
+    "title": "Temel Yaşam Desteği",
+    "description": "Kalp masajı ve suni solunum",
+    "category": "ilk_yardim",
+    "order": 2,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "ilk_yardim_2_0",
+        "title": "Temel Yaşam Desteği Nedir?",
+        "content": "Temel yaşam desteği (TYD), solunumu ve/veya kalbi durmuş kişiye, dışarıdan kalp masajı ve suni solunum uygulanarak yapay olarak solunum ve dolaşımın sürdürülmesidir. Amaç, beyin başta olmak üzere hayati organlara oksijen gitmesini sağlamaktır. Kalp durduktan sonra ilk 4-5 dakika kritik öneme sahiptir; bu sürede beyne oksijen gitmezse kalıcı hasar başlar.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "ilk_yardim_2_1",
+        "title": "Kalp Masajı Tekniği ve 30:2 Oranı",
+        "content": "Kazazede sert bir zemine sırtüstü yatırılır. Göğüs kafesinin ortasına (göğüs kemiğinin alt yarısı) bir el ayası, diğer el üzerine yerleştirilir. Kollar dirsekten bükülmeden, vücut ağırlığıyla göğüs yaklaşık 5 cm çökecek şekilde bastırılır. Bası hızı dakikada 100-120 olmalıdır. Yetişkinde 30 kalp masajından sonra 2 suni solunum uygulanır (30:2). Bu döngü kesintisiz sürdürülür.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "ilk_yardim_2_2",
+        "title": "Suni Solunum (Ağızdan Ağıza)",
+        "content": "Kazazedenin başı geriye alınır, çene yukarı kaldırılarak solunum yolu açılır. Burun kanatları sıkıştırılarak kapatılır, ilk yardımcı normal bir nefes alıp kazazedenin ağzını tamamen kavrayarak yaklaşık 1 saniye süreyle, göğsü kalkacak kadar üfler. Hijyen açısından risk varsa veya üfleme yapılamıyorsa, kesintisiz kalp masajına devam etmek hiç yapmamaktan iyidir.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "ilk_yardim_2_3",
+        "title": "TYD Ne Zamana Kadar Sürdürülür?",
+        "content": "Temel yaşam desteğine şu durumlardan biri gerçekleşene kadar devam edilir:\n\n• Kazazede normal solunuma/yaşam belirtisine kavuşana kadar\n• Sağlık ekibi gelip devralana kadar\n• İlk yardımcı tükenip devam edemeyecek hale gelene kadar\n\nYanında başka biri varsa yorulmamak için her 2 dakikada bir sırayla değişilmelidir.",
+        "type": "important",
+        "order": 3
+      },
+      {
+        "id": "ilk_yardim_2_4",
+        "title": "Sık Yapılan Hatalar",
+        "content": "• Bası hızının çok yavaş olması (en az 100/dakika olmalı)\n• Bası derinliğinin yetersiz olması (yetişkinde ~5 cm)\n• Masaja ara verilmesi (kesintiler beyne oksijeni azaltır)\n• Solunum yolu açılmadan suni solunum denemek\n• Yumuşak zeminde kalp masajı yapmak",
+        "type": "list",
+        "order": 4
+      },
+      {
+        "id": "ilk_yardim_2_5",
+        "title": "Sınav İpucu: Oran ve Hız",
+        "content": "Sınavda en çok '30 masaj - 2 soluk' oranı, dakikada 100-120 bası hızı ve ~5 cm bası derinliği sorulur. Bunları net ezberleyin. Ayrıca masaja başlamadan önce zeminin SERT olması ve kazazedenin SIRTÜSTÜ yatırılması gerektiğini unutmayın.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "ilk_yardim_3",
+    "title": "Kanama ve Şok",
+    "description": "Kanama çeşitleri ve müdahale",
+    "category": "ilk_yardim",
+    "order": 3,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "ilk_yardim_3_0",
+        "title": "Kanama Çeşitleri",
+        "content": "Kanama, damar bütünlüğünün bozulmasıyla kanın damar dışına çıkmasıdır. Dış kanama görülebilir; iç kanama vücut içinde olur ve dışarıdan görülmez. Damar türüne göre: Atardamar kanaması parlak kırmızı renkte ve kalp atımıyla fışkırır (en tehlikelisi), toplardamar kanaması koyu kırmızı renkte ve sızar şekilde akar, kılcal damar kanaması az miktarda ve yüzeyseldir.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "ilk_yardim_3_1",
+        "title": "Dış Kanamada İlk Yardım",
+        "content": "Dış kanamada temel uygulama yara üzerine doğrudan ve sürekli baskı yapmaktır. Temiz bir bez ile yaraya bastırılır; bez kanı emerse çıkarılmaz, üzerine yenisi eklenerek baskı sürdürülür. Kanayan bölge mümkünse kalp seviyesinden yukarıda tutulur. Baskıyla durmayan, kol veya bacaktaki yoğun kanamalarda son çare olarak turnike uygulanabilir ve uygulanma saati mutlaka not edilir.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "ilk_yardim_3_2",
+        "title": "Şok Nedir ve Belirtileri",
+        "content": "Şok, dolaşım sisteminin hayati organlara yeterli kan ve oksijen sağlayamaması durumudur. En sık nedeni ciddi kan/sıvı kaybıdır. Belirtileri: hızlı ve zayıf nabız, hızlı ve yüzeysel solunum, soluk-soğuk-nemli cilt, huzursuzluk, susuzluk hissi, baş dönmesi ve bilinç bulanıklığıdır. Şok hayatı tehdit eden ciddi bir durumdur.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "ilk_yardim_3_3",
+        "title": "Şok Pozisyonu",
+        "content": "Şok belirtisi gösteren ve bilinci açık kazazede sırtüstü yatırılır, ayakları 30 cm kadar yukarı kaldırılır (şok pozisyonu). Böylece beyne kan gidişi artırılır. Kazazede üzeri örtülerek sıcak tutulur, hareket ettirilmez ve ağızdan hiçbir şey verilmez. Hemen 112 aranır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "ilk_yardim_3_4",
+        "title": "Kanama ve Şok Kontrol Listesi",
+        "content": "• Yaraya temiz bezle doğrudan baskı yap\n• Kanı emen bezi çıkarma, üzerine ekle\n• Kanayan bölgeyi kalp seviyesinden yukarı kaldır\n• Durmayan kol/bacak kanamasında son çare turnike (saatini not et)\n• Şok belirtisi varsa ayakları yukarı kaldır (şok pozisyonu)\n• Sıcak tut, ağızdan bir şey verme\n• 112'yi ara",
+        "type": "list",
+        "order": 4
+      },
+      {
+        "id": "ilk_yardim_3_5",
+        "title": "Sınav İpucu: Kanı Emen Bez",
+        "content": "Sınavın klasik tuzak sorusu: 'Kanı emen bez ne yapılır?' Doğru cevap: ÇIKARILMAZ, üzerine yeni bez eklenir. Bezin çıkarılması pıhtıyı bozar ve kanamayı yeniden başlatır. Bir diğer sık soru: atardamar kanaması parlak kırmızı ve fışkırır şekildedir; en tehlikeli kanama türüdür.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "ilk_yardim_4",
+    "title": "Kırık, Çıkık ve Burkulmalar",
+    "description": "Kemik ve eklem yaralanmaları",
+    "category": "ilk_yardim",
+    "order": 4,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "ilk_yardim_4_0",
+        "title": "Kırık, Çıkık ve Burkulma Farkı",
+        "content": "Kırık, kemik bütünlüğünün bozulmasıdır; deri sağlamsa kapalı kırık, kemik deriyi delip dışarı çıkmışsa açık kırıktır. Çıkık, eklem yüzeylerinin normal konumundan ayrılmasıdır. Burkulma ise eklemi bir arada tutan bağların zorlanması veya kısmen yırtılmasıdır. Üçünde de ağrı, şişlik ve hareket kısıtlılığı görülür; ilk yardım yaklaşımı benzerdir: hareketsizleştirme.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "ilk_yardim_4_1",
+        "title": "Genel İlk Yardım: Hareketsizleştirme",
+        "content": "Kırık, çıkık ve burkulmada temel kural yaralı bölgeyi olduğu gibi sabitlemek (hareketsizleştirmek) ve gereksiz hareketten kaçınmaktır. Yaralı bölge bulunduğu pozisyonda, bir alt ve bir üst eklemi de içine alacak şekilde atel/tahta vb. ile desteklenir. Şişliği azaltmak için soğuk uygulama yapılabilir. Çıkığı yerine oturtmaya ÇALIŞILMAZ.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "ilk_yardim_4_2",
+        "title": "Açık Kırıkta Müdahale",
+        "content": "Açık kırıkta dışarı çıkan kemik içeri itilmeye çalışılmaz. Önce kanama temiz bezle baskı uygulanarak kontrol edilir, yara temiz bir bezle örtülür, ardından bölge hareketsizleştirilir. Açık kırıkta enfeksiyon riski yüksektir, hızla sağlık kuruluşuna ulaştırılmalıdır.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "ilk_yardim_4_3",
+        "title": "Omurga (Bel-Boyun) Yaralanması Şüphesi",
+        "content": "Trafik kazalarında omurga yaralanması ihtimali her zaman vardır. Omurga yaralanmasından şüpheleniliyorsa kazazede zorunlu olmadıkça (yangın, patlama gibi ek tehlike yoksa) KESİNLİKLE hareket ettirilmez. Hareket ettirme zorunluysa baş-boyun-gövde tek eksen halinde, düz tutularak ve birden çok kişiyle taşınır. Yanlış taşıma kalıcı felçle sonuçlanabilir.",
+        "type": "important",
+        "order": 3
+      },
+      {
+        "id": "ilk_yardim_4_4",
+        "title": "Yapılmaması Gerekenler",
+        "content": "• Çıkığı veya kırığı yerine oturtmaya çalışmak\n• Açık kırıkta kemiği içeri itmek\n• Omurga şüphesinde kazazedeyi gereksiz hareket ettirmek\n• Yaralı bölgeyi sabitlemeden taşımak\n• Kırık bölgeyi ovmak veya bastırmak",
+        "type": "list",
+        "order": 4
+      },
+      {
+        "id": "ilk_yardim_4_5",
+        "title": "Sınav İpucu: Omurga Kuralı",
+        "content": "Sınavda kazada omurga yaralanması şüphesi olan kişi için doğru cevap her zaman 'yerinden oynatma, olduğu yerde sabit tut, 112'yi ara' yönündedir. Zorunlu taşıma gerekiyorsa baş-boyun-gövde düz hatta tutulur. Kırıkta genel kural: hareketsizleştir + soğuk uygula.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "ilk_yardim_5",
+    "title": "Yanık ve Zehirlenmeler",
+    "description": "Acil müdahale yöntemleri",
+    "category": "ilk_yardim",
+    "order": 5,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "ilk_yardim_5_0",
+        "title": "Yanık Dereceleri",
+        "content": "Yanıklar derinliğine göre üçe ayrılır. Birinci derece yanıkta yalnızca derinin üst tabakası etkilenir; kızarıklık ve ağrı vardır (güneş yanığı gibi). İkinci derece yanıkta su toplaması (kabarcık) ve şiddetli ağrı görülür. Üçüncü derece yanıkta tüm deri katmanları ve alttaki dokular zarar görür; deri kömürleşmiş/beyazlaşmış görünür, sinirler hasar gördüğü için ağrı az olabilir. Geniş ve derin yanıklar hayati tehlike taşır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "ilk_yardim_5_1",
+        "title": "Yanıkta İlk Yardım",
+        "content": "Yanan bölge en az 15-20 dakika bol ve akan soğuk (buzlu değil) su altında tutulur. Bu, hem ağrıyı azaltır hem de yanığın ilerlemesini durdurur. Su toplamış kabarcıklar patlatılmaz. Yanık bölgeye diş macunu, yoğurt, salça, yağ gibi maddeler SÜRÜLMEZ; bunlar enfeksiyon riskini artırır. Yanık temiz bir bezle örtülür. Yapışan giysiler çıkarılmaya çalışılmaz.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "ilk_yardim_5_2",
+        "title": "Kimyasal ve Elektrik Yanıkları",
+        "content": "Kimyasal yanıkta etkilenen bölge bol suyla uzun süre yıkanarak kimyasal uzaklaştırılır, bulaşmış giysiler çıkarılır. Elektrik yanığında önce akım kesilir; akım kesilmeden kazazedeye dokunulmaz. Elektrik çarpması kalp ritmini bozabileceğinden kazazedenin solunum ve dolaşımı yakından izlenir, gerekirse temel yaşam desteği uygulanır.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "ilk_yardim_5_3",
+        "title": "Zehirlenmeler",
+        "content": "Zehirlenme; zehirli maddenin solunum yolu, sindirim yolu (ağız) veya cilt yoluyla vücuda girmesiyle olur. Belirtileri arasında bulantı, kusma, karın ağrısı, baş dönmesi, bilinç bulanıklığı ve solunum güçlüğü vardır. İlk yardımda kazazede zehirli ortamdan uzaklaştırılır, solunum yolu açık tutulur, kusuyorsa boğulmaması için yan yatırılır. 112 aranır ve maddenin ne olduğu bildirilir. Yetkili önermedikçe kusturulmaya çalışılmaz.",
+        "type": "important",
+        "order": 3
+      },
+      {
+        "id": "ilk_yardim_5_4",
+        "title": "Karbonmonoksit Zehirlenmesi",
+        "content": "Karbonmonoksit (CO) renksiz ve kokusuz bir gazdır; soba, şofben ve egzoz gazından yayılır. Kapalı garajda çalışan araç egzozu öldürücü olabilir. Zehirlenende baş ağrısı, hâlsizlik, bulantı ve bilinç kaybı görülür. İlk yardım: kazazede hemen temiz havaya çıkarılır, ortam havalandırılır, 112 aranır ve gerekirse temel yaşam desteği uygulanır.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "ilk_yardim_5_5",
+        "title": "Sınav İpucu: Yanığa Ne Sürülmez?",
+        "content": "Sınavda klasik soru: yanığa diş macunu, yoğurt, yağ, salça gibi maddeler SÜRÜLMEZ; sadece bol soğuk su (15-20 dk) uygulanır ve kabarcık patlatılmaz. Elektrik kazasında ilk iş AKIMI KESMEKTİR. Egzoz/soba kaynaklı zehirlenmede ilk iş kazazedeyi TEMİZ HAVAYA çıkarmaktır.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "trafik_0",
+    "title": "Trafik Kavramları",
+    "description": "Temel tanımlar ve kavramlar",
+    "category": "trafik",
+    "order": 0,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_0_0",
+        "title": "Trafik Nedir?",
+        "content": "Trafik; yayaların, hayvanların ve araçların karayolları üzerindeki hâl ve hareketlerinin tümüne verilen addır. Karayolu ise trafik için kamunun yararlanmasına açık olan arazi şeridi, köprüler ve alanlardır. Trafik düzeninin temeli, herkesin bu ortak alanı kurallara uygun ve güvenli biçimde kullanmasıdır. Sürücülerin görevi yalnızca aracı kullanmak değil; çevredeki yaya, sürücü ve diğer yol kullanıcılarının can güvenliğini de gözetmektir.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_0_1",
+        "title": "Temel Tanımlar",
+        "content": "Sınavda sık karşılaşılan temel kavramlar:\n• Sürücü: Karayolunda motorlu ya da motorsuz bir aracı veya taşıtı sevk ve idare eden kişidir.\n• Yaya: Araçlarda bulunmayan, karayolunda hareketsiz veya hareket hâlinde olan insandır.\n• Taşıt yolu (kaplama): Karayolunun araç trafiğine ayrılan kısmıdır.\n• Şerit: Taşıtların güvenli seyredebilmesi için taşıt yolunun çizgilerle ayrılmış bölümüdür.\n• Banket: Yaya, hayvan ve zorunlu hâllerde araçların kullanması için taşıt yolu kenarındaki kısımdır.\n• Kavşak: İki ya da daha çok karayolunun kesişip birleştiği ortak alandır.",
+        "type": "list",
+        "order": 1
+      },
+      {
+        "id": "trafik_0_2",
+        "title": "Anayol ve Tali Yol",
+        "content": "Anayol (ana yol), trafiğin yoğun olduğu ve genellikle geçiş üstünlüğüne sahip olan yoldur. Tali yol ise anayola bağlanan, daha az trafikli ikinci derece yoldur. Tali yoldan anayola çıkacak sürücü, anayoldaki araçlara yol vermek zorundadır. Bu ayrım, kavşaklarda geçiş hakkının belirlenmesinde büyük önem taşır.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "trafik_0_3",
+        "title": "Yol Verme ve Geçiş Hakkı",
+        "content": "Yol verme; bir aracın ya da yayanın geçişini kolaylaştırmak için durmak, yavaşlamak veya hareketini durdurmaktır. Geçiş hakkı (geçiş üstünlüğü), önceden belirlenmiş kurallara göre bir yol kullanıcısının diğerine göre önce geçmesidir. Trafikte düzen, bu hakların doğru bilinmesi ve uygulanmasıyla sağlanır.",
+        "type": "important",
+        "order": 3
+      },
+      {
+        "id": "trafik_0_4",
+        "title": "Kavramları Pekiştirme İpucu",
+        "content": "Tanımları ezberlerken \"kim, nerede, ne yapıyor\" sorularını sorun. Örneğin sürücü aracı sevk eder, yaya yolda yürür, banket zorunlu hâlde kullanılır. Kavramları görsellerle ve günlük trafikle eşleştirmek, sınavda karıştırmayı önler.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "trafik_1",
+    "title": "Trafik İşaretleri",
+    "description": "Levhalar ve anlamları",
+    "category": "trafik",
+    "order": 1,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_1_0",
+        "title": "Trafik İşaretleri Neden Önemlidir?",
+        "content": "Trafik işaretleri; sürücüleri uyaran, yönlendiren ve trafiği düzenleyen levha, ışık ve yer işaretlemelerinden oluşur. Bu işaretler herkes için ortak bir dil oluşturur ve kazaların önlenmesinde en önemli araçlardan biridir. Sürücü, işaretlerin anlamını bilmek ve gereğini yerine getirmek zorundadır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_1_1",
+        "title": "Tehlike Uyarı İşaretleri",
+        "content": "Tehlike uyarı işaretleri, sürücüyü ileride karşılaşacağı bir tehlikeye karşı önceden uyarır. Bu işaretler kenarı kırmızı çerçeveli üçgen biçimindedir ve zemini beyaz, sembolü siyahtır. Örnek olarak kasisli yol, virajlar, okul geçidi ve kaygan yol işaretleri verilebilir. Bu işaretleri gören sürücü hızını azaltmalı ve dikkatini artırmalıdır.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_1_2",
+        "title": "Trafik Tanzim İşaretleri",
+        "content": "Trafik tanzim (düzenleme) işaretleri, bir hareketi yasaklayan ya da zorunlu kılan işaretlerdir ve genellikle daire biçimindedir:\n• Yasaklayıcı işaretler: Kırmızı çerçeveli, beyaz veya zemini açık renkli dairelerdir. Örnek: \"Taşıt giremez\", \"Sağa dönülmez\", \"Park etmek yasaktır\".\n• Mecburiyet (zorunluluk) işaretleri: Mavi zeminli dairelerdir. Örnek: \"İleri mecburi yön\", \"Sağa mecburi yön\".\n• \"Dur\" işareti ise sekizgen (sekiz kenarlı) ve kırmızı zeminlidir; sürücüyü mutlaka durmaya zorlar.",
+        "type": "list",
+        "order": 2
+      },
+      {
+        "id": "trafik_1_3",
+        "title": "Bilgi İşaretleri",
+        "content": "Bilgi işaretleri sürücüye yol, yön, mesafe ve hizmetler hakkında bilgi verir. Genellikle mavi veya yeşil zeminli dikdörtgen levhalardır. Otoyol ve şehirler arası yönlendirmelerde yeşil; şehir içi ve hizmet bilgilerinde mavi zemin yaygındır. Bu işaretler bir yasak ya da uyarı içermez; sürücünün doğru yönlendirilmesini sağlar.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_1_4",
+        "title": "Işıklı İşaret Cihazı (Trafik Lambası)",
+        "content": "Trafik ışıklarının anlamları kesindir ve mutlaka uyulması gerekir:\n• Kırmızı ışık: Kesinlikle dur; geçiş yasaktır.\n• Sarı ışık: \"Dur\"a ve kırmızıya hazırlık demektir. Kavşağa henüz girmemiş sürücü durmalıdır; sarı yandığında geçişe başlamak doğru değildir.\n• Yeşil ışık: Yol açıktır, geçebilirsiniz; ancak yine de dikkatli ve kavşağın boş olduğundan emin olarak geçilmelidir.",
+        "type": "important",
+        "order": 4
+      },
+      {
+        "id": "trafik_1_5",
+        "title": "Renk ve Şekil İpucu",
+        "content": "İşaretleri ayırt etmek için renk ve şekle odaklanın: Kırmızı kenarlı üçgen \"dikkat, tehlike\"; kırmızı çerçeveli daire \"yasak\"; mavi zeminli daire \"zorunlu\"; mavi veya yeşil dikdörtgen \"bilgi\" anlamına gelir. Bu mantığı bilmek, hiç görmediğiniz bir levhayı bile doğru yorumlamanızı sağlar.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "trafik_2",
+    "title": "Geçiş Üstünlüğü",
+    "description": "Kavşak kuralları",
+    "category": "trafik",
+    "order": 2,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_2_0",
+        "title": "Geçiş Üstünlüğü Nedir?",
+        "content": "Geçiş üstünlüğü, trafikte belirli bir sıraya göre bir yol kullanıcısının diğerlerinden önce geçme hakkıdır. Kavşaklar, kazaların en sık yaşandığı noktalardır; bu nedenle geçiş hakkının kime ait olduğunu bilmek hayati önem taşır. Sürücü, kendi geçiş hakkı olsa bile karşıdaki araç veya yayanın kurala uymadığını gördüğünde kaza önlemek için tedbir almak zorundadır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_2_1",
+        "title": "Kavşaklarda Öncelik Sırası",
+        "content": "Bir kavşağa yaklaşan sürücü, geçiş hakkını şu öncelik sırasına göre belirler:\n• 1. Trafik görevlisinin (polisin) işaret ve talimatları\n• 2. Işıklı işaret cihazının (trafik lambasının) verdiği işaretler\n• 3. Trafik levhaları, işaretleri ve yer (yol) işaretlemeleri\nBu sıralama yukarıdan aşağıya doğru üstündür: Trafik görevlisi varsa, ışık ve levha ne derse desin önce onun işaretine uyulur.",
+        "type": "list",
+        "order": 1
+      },
+      {
+        "id": "trafik_2_2",
+        "title": "İşaret ve Görevli Yoksa Kurallar",
+        "content": "Kavşakta trafik görevlisi, ışık veya işaret bulunmuyorsa şu kurallar geçerlidir: Anayoldaki araç, tali yoldan gelen araca göre geçiş üstünlüğüne sahiptir; tali yoldaki sürücü anayoldaki araca yol vermek zorundadır. Yolların eşit (aynı derecede) olduğu durumda ise sağdaki araç geçiş üstünlüğüne sahiptir; yani sürücü sağından gelen araca yol verir.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_2_3",
+        "title": "Geçiş Üstünlüğüne Sahip Araçlar",
+        "content": "Görev hâlindeki bazı araçlar; sesli ve ışıklı uyarı cihazlarını çalıştırdıklarında geçiş üstünlüğüne sahip olur. Bunlar arasında ambulans, itfaiye, polis ve benzeri kamu hizmeti araçları bulunur. Bu araçların siren ve tepe lambasını çalıştırdığını gören sürücüler, yavaşlayıp sağa yaklaşarak ya da durarak bu araçlara yol vermek zorundadır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_2_4",
+        "title": "Kavşak Geçişinde İpucu",
+        "content": "Kavşağa girmeden önce hızınızı azaltın ve \"önce kim geçer?\" sorusunu görevli, ışık, levha sırasıyla yanıtlayın. Hiçbiri yoksa sağ taraftan gelen araca dikkat edin. Tereddüt ettiğinizde acele etmek yerine yol vermek, en güvenli davranıştır.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "trafik_3",
+    "title": "Hız Kuralları",
+    "description": "Yasal hız sınırları",
+    "category": "trafik",
+    "order": 3,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_3_0",
+        "title": "Hız ve Güvenlik İlişkisi",
+        "content": "Hız, trafik kazalarının en önemli nedenlerinden biridir. Aracın hızı arttıkça hem fren mesafesi uzar hem de olası bir kazanın şiddeti artar. Bu nedenle sürücü, yasal hız sınırlarına uymanın yanında; yol, hava ve trafik şartlarına göre hızını ayarlamak zorundadır. Yasal sınır içinde olsa bile şartlar gerektiriyorsa daha yavaş gidilmelidir.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_3_1",
+        "title": "Otomobiller İçin Yasal Hız Sınırları",
+        "content": "Otomobiller için belirlenen azami (en yüksek) hız sınırları şöyledir:\n• Yerleşim yeri (şehir) içi: 50 km/saat\n• Yerleşim yeri dışı (şehirler arası): 90 km/saat\n• Bölünmüş yollar: 110 km/saat\n• Otoyollar: 120 km/saat\nBu değerler aksini belirten bir levha yoksa geçerlidir; levha farklı bir sınır gösteriyorsa levhadaki değere uyulur.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "trafik_3_2",
+        "title": "Hıza Etki Eden Şartlar",
+        "content": "Aşağıdaki durumlarda yasal sınırın altında, şartlara uygun bir hızla gidilmelidir:\n• Yağmurlu, karlı, buzlu veya sisli hava\n• Görüşün azaldığı gece sürüşleri\n• Yoğun yaya ve araç trafiği\n• Okul, hastane ve yerleşim bölgesi çevreleri\n• Keskin virajlar, eğimli ve kaygan yollar\nBu şartlarda hızı azaltmak, aracın kontrolünü ve duruş mesafesini güvende tutar.",
+        "type": "list",
+        "order": 2
+      },
+      {
+        "id": "trafik_3_3",
+        "title": "Takip Mesafesi",
+        "content": "Takip mesafesi, öndeki araçla aramızda bırakmamız gereken güvenli boşluktur. Hız arttıkça bu mesafe de artmalıdır; çünkü ani bir frende çarpmayı önleyecek tek tampon takip mesafesidir. Genel kural olarak, kuru yolda öndeki araç bir noktadan geçtikten sonra en az iki saniye sonra aynı noktaya ulaşacak şekilde mesafe bırakılması önerilir. Yol ıslak veya kaygansa bu süre daha da artırılmalıdır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_3_4",
+        "title": "Hız Ayarı İpucu",
+        "content": "Hızınızı belirlerken yalnızca levhadaki sayıya değil, \"durabileceğim mesafeyi görüyor muyum?\" sorusuna da bakın. Görüş açınızın yettiği mesafede güvenle durabiliyorsanız hızınız uygundur. Şüphede kaldığınızda yavaşlamak her zaman en doğru tercihtir.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "trafik_4",
+    "title": "Sollama Kuralları",
+    "description": "Güvenli sollama teknikleri",
+    "category": "trafik",
+    "order": 4,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_4_0",
+        "title": "Sollama Nedir?",
+        "content": "Sollama (geçme), bir aracın önündeki aracı geçerek onun önüne geçmesidir. Sollama, trafikte en çok dikkat gerektiren manevralardan biridir; çünkü kısa süreliğine karşı yönden gelen trafiğin şeridi kullanılabilir. Bu nedenle sollamaya başlamadan önce yolun, görüşün ve trafiğin tamamen uygun olduğundan emin olunmalıdır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_4_1",
+        "title": "Sollama Kuralı: Soldan Geçilir",
+        "content": "Kural olarak öndeki araç soldan sollanır. Sollama yapacak sürücü; öndeki aracın sola dönüş yapmayacağından emin olmalı, sol sinyalini vermeli, aynalarını kontrol etmeli ve geçişi yeterli mesafe görüş varken tamamlamalıdır. Geçtiği aracı dikiz aynasından gördükten sonra sağ sinyalini vererek güvenle kendi şeridine dönmelidir. Geçilmekte olan aracın sürücüsü ise hızını artırmamalı ve sağ tarafını koruyarak geçişi kolaylaştırmalıdır.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_4_2",
+        "title": "Sollamanın Yasak Olduğu Yerler",
+        "content": "Aşağıdaki yer ve durumlarda sollama yapmak yasaktır:\n• Yaya ve okul geçitlerinde\n• Kavşaklarda ve kavşaklara yaklaşırken\n• Tepe üstü, dönemeç (viraj) gibi görüşün yetersiz olduğu yerlerde\n• Tünellerde ve köprülerde\n• Demir yolu geçitlerinde ve yakınında\n• Yol çizgilerinin (devamlı/kesintisiz çizgi) sollamayı yasakladığı kesimlerde\nBu yerlerde geçiş yapmak, karşı yönden gelen trafiği göremediğiniz için ciddi kaza riski taşır.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_4_3",
+        "title": "Güvenli Sollama Adımları",
+        "content": "Güvenli bir sollama için sırasıyla şu adımlar izlenir:\n• Önündeki ve karşıdan gelen trafiği değerlendir; yolun yeterince açık olduğundan emin ol.\n• Aynaları ve sol kör noktayı kontrol et.\n• Sol sinyalini ver ve kararlı biçimde sol şeride geç.\n• Geçişi gereksiz yere uzatmadan, hızlı ve güvenli tamamla.\n• Geçtiğin aracı aynada gördükten sonra sağ sinyalini verip kendi şeridine dön.",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "trafik_4_4",
+        "title": "Sollama İpucu",
+        "content": "Sollamaya başlamadan önce kendinize \"karşıdan gelen trafiği rahatça görebiliyor ve geçişi güvenle bitirebiliyor muyum?\" diye sorun. Cevap net bir \"evet\" değilse sollamayın. Acelesiz ve kontrollü beklemek, riskli bir geçişten her zaman daha güvenlidir.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "trafik_5",
+    "title": "Park Etme",
+    "description": "Park yasak yerleri ve kuralları",
+    "category": "trafik",
+    "order": 5,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_5_0",
+        "title": "Durma, Duraklama ve Park Etme",
+        "content": "Bu üç kavramı ayırmak önemlidir: Durma; kırmızı ışık, görevli işareti gibi bir zorunluluk nedeniyle aracın kısa süre hareketsiz kalmasıdır. Duraklama; yolcu indirip bindirmek, yük almak gibi kısa süreli ve belirli bir amaçla beklemedir. Park etme (parketme) ise aracın belirli bir amaç olmaksızın uzun süreli olarak bırakılmasıdır. Park kuralları, trafiğin akışını ve diğer kullanıcıların güvenliğini korumak için belirlenmiştir.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_5_1",
+        "title": "Park Etmenin Yasak Olduğu Yerler",
+        "content": "Aşağıdaki yerlerde park etmek yasaktır:\n• Yaya ve okul geçitlerinin üzerinde ve yakınında\n• Kavşaklarda ve kavşaklara yaklaşımda\n• Dönemeç (viraj) ve tepe üstü gibi görüşün kısıtlı olduğu yerlerde\n• Duraklarda (otobüs, taksi, durak çevresi)\n• Yangın muslukları ve acil çıkışların önünde\n• Köprü, tünel ve alt-üst geçitlerde\n• Engelli araçlarına ayrılmış yerlerde (yetkisiz araçlarla)\n• Park etmenin işaret veya çizgiyle yasaklandığı kesimlerde",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "trafik_5_2",
+        "title": "Doğru Park Etme Kuralları",
+        "content": "Aracı park ederken trafiği aksatmayacak ve tehlike oluşturmayacak biçimde, mümkün olduğunca yola paralel ve kenara yakın bırakılmalıdır. Park sonrası el freni çekilmeli, motor durdurulmalı, eğimli yolda tekerlekler kaldırım yönüne çevrilmelidir. Kapı açarken çevredeki trafiğe ve yayalara dikkat edilmeli; araçtan inerken trafik akışına engel olunmamalıdır.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "trafik_5_3",
+        "title": "Arızalanan Aracın Park Edilmesi",
+        "content": "Aracınız yolda arızalanırsa, mümkünse aracı taşıt yolu dışına, banket veya emniyetli bir alana alın. Bunu yapamıyorsanız dörtlü flaşörleri (acil uyarı ışıklarını) yakın ve aracın arkasına, diğer sürücülerin sizi yeterli mesafeden görebileceği uzaklığa reflektör (kırmızı yansıtıcı üçgen) yerleştirin. Gece ve görüşün az olduğu durumlarda bu önlemler hayati önem taşır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_5_4",
+        "title": "Park İpucu",
+        "content": "Park yeri seçerken \"buraya park edersem yaya, araç veya acil bir aracın geçişini engeller miyim?\" diye düşünün. Bir yer rahat görünse bile geçit, durak, kavşak veya yangın musluğu yakınıysa park etmeyin. Kurallı park, hem ceza almanızı önler hem de trafiği güvende tutar.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "trafik_6",
+    "title": "Cezai Hükümler",
+    "description": "Trafik cezaları ve puanlar",
+    "category": "trafik",
+    "order": 6,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_6_0",
+        "title": "Trafik Cezalarının Amacı",
+        "content": "Trafik cezaları, kural ihlallerini önleyerek can ve mal güvenliğini korumayı amaçlar. Cezanın amacı yalnızca yaptırım uygulamak değil; sürücüyü kurallara uymaya yönlendirmek ve trafik güvenliğini sürekli kılmaktır. Kurallara uyan sürücü hem kendi güvenliğini hem de çevresindeki herkesin güvenliğini sağlamış olur.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_6_1",
+        "title": "İdari Para Cezası ve Ceza Puanı",
+        "content": "Trafik kurallarına uymayan sürücülere, ihlalin türüne göre idari para cezası uygulanır ve ihlale karşılık gelen ceza puanı verilir. Ceza puanı, sürücünün ihlal sicilini izlemek için kullanılan bir sistemdir; her ihlal türünün belirli bir puan değeri vardır. Para cezası tutarları zamanla güncellendiğinden, sınavda önemli olan cezanın varlığı ve puan sistemidir.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_6_2",
+        "title": "100 Ceza Puanı Kuralı",
+        "content": "Ceza puanı sistemine göre, bir yıl içinde 100 ceza puanını dolduran sürücünün sürücü belgesi geçici olarak geri alınır. Bu uygulama, sürekli kural ihlali yapan sürücüleri trafikten geçici süreyle uzaklaştırarak güvenliği korumayı hedefler. Belge geri alma süreleri, ihlalin tekrarına göre artabilir.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_6_3",
+        "title": "Belge Geri Alınmasını Gerektiren Ağır İhlaller",
+        "content": "Bazı ağır ihlaller, ceza puanından bağımsız olarak sürücü belgesinin geri alınmasına yol açabilir. Bunlardan bazıları:\n• Alkollü araç kullanmak\n• Hız sınırlarını aşırı derecede aşmak\n• Kırmızı ışık ihlalini tekrarlamak\n• Trafik güvenliğini ciddi şekilde tehlikeye düşüren davranışlar\nBu tür ihlallerde hem idari yaptırım uygulanır hem de tekrarı hâlinde belge geri alma süresi uzar.",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "trafik_6_4",
+        "title": "Cezalardan Kaçınmak İçin İpucu",
+        "content": "Ceza almamanın en kolay yolu kuralları içselleştirmektir: Hız sınırına uyun, emniyet kemerini takın, kırmızı ışıkta durun ve alkollü araç kullanmayın. Ceza puanınızı düşük tutmak, yalnızca cebinizi değil; can güvenliğinizi de korur. Unutmayın, en iyi sürücü ceza almayan değil, kazaya yol açmayan sürücüdür.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "motor_0",
+    "title": "Motor Yapısı",
+    "description": "İçten yanmalı motorlar",
+    "category": "motor",
+    "order": 0,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "motor_0_0",
+        "title": "İçten Yanmalı Motor Nedir?",
+        "content": "İçten yanmalı motor, yakıtın motorun içinde, silindir adı verilen bölümlerde yakılmasıyla ortaya çıkan ısı enerjisini hareket enerjisine dönüştüren makinedir. Silindir içinde yanan yakıtın oluşturduğu basınç pistonu aşağı iter; pistonun bu doğrusal hareketi biyel kolu aracılığıyla krank miline iletilir ve dönme hareketine çevrilir. Krank milinden alınan bu dönme hareketi, aktarma organları yardımıyla tekerleklere ulaştırılarak aracın hareket etmesi sağlanır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "motor_0_1",
+        "title": "Dört Zamanlı Çevrim",
+        "content": "Günümüz araçlarında en yaygın kullanılan motor, dört zamanlı motordur. Dört zamanlı motorda bir iş çevrimi şu sırayla tamamlanır:\n• Emme zamanı: Emme supabı açılır, piston aşağı iner ve silindire yakıt-hava karışımı (dizelde yalnızca hava) dolar.\n• Sıkıştırma zamanı: Supaplar kapanır, piston yukarı çıkar ve silindirdeki karışımı sıkıştırır.\n• Ateşleme (iş) zamanı: Sıkışan karışım ateşlenir, oluşan basınç pistonu aşağı iter ve gücü buradan alırız.\n• Egzoz zamanı: Egzoz supabı açılır, piston yukarı çıkarak yanmış gazları dışarı atar.",
+        "type": "list",
+        "order": 1
+      },
+      {
+        "id": "motor_0_2",
+        "title": "Güç Hangi Zamandan Elde Edilir?",
+        "content": "Dört zamanlı bir motorda gücün elde edildiği tek zaman ateşleme (iş) zamanıdır. Diğer üç zaman (emme, sıkıştırma, egzoz) bu iş zamanından alınan enerjiyle ve volanda depolanan dönme enerjisiyle gerçekleştirilir. Bu nedenle ateşleme zamanı, motorun çalışmasını sağlayan asıl güç üreten aşamadır.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "motor_0_3",
+        "title": "Motor Yağının Görevleri",
+        "content": "Motor yağı, motorun sağlıklı ve uzun ömürlü çalışması için temel öneme sahiptir. Başlıca görevleri şunlardır:\n• Yağlama: Birbirine sürtünerek çalışan hareketli parçalar arasında ince bir film tabakası oluşturarak sürtünmeyi ve aşınmayı azaltır.\n• Temizleme: Yanma sonucu oluşan kurum ve metal artıklarını toplayarak parçaları temiz tutar.\n• Soğutma: Sürtünen parçalardan ısıyı alarak motorun aşırı ısınmasını engellemeye yardımcı olur.\n• Sızdırmazlık: Piston ile silindir arasındaki boşluğu doldurarak yanma odasının sızdırmazlığını sağlar.",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "motor_0_4",
+        "title": "Sınav İpucu: Zamanların Sırası",
+        "content": "Sınavda dört zamanın sırası sıkça sorulur. Sırayı 'Emme - Sıkıştırma - Ateşleme - Egzoz' olarak ezberleyin. Ayrıca 'gücün elde edildiği zaman hangisidir?' sorusunun cevabı her zaman ateşleme (iş) zamanıdır. Motor yağının görevleri sorulduğunda 'yakıt yakmak' veya 'fren yapmak' gibi seçenekler yanlıştır; doğru görevler yağlamak, temizlemek, soğutmak ve sızdırmazlık sağlamaktır.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "motor_1",
+    "title": "Yakıt Sistemi",
+    "description": "Benzin ve dizel sistemleri",
+    "category": "motor",
+    "order": 1,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "motor_1_0",
+        "title": "Yakıt Sisteminin Görevi",
+        "content": "Yakıt sistemi, deposundaki yakıtı temizleyip uygun miktarda motora ulaştırarak yanmasını sağlayan parçaların tümüdür. Sistem genel olarak yakıt deposu, yakıt pompası, yakıt filtresi, yakıt borular ve yakıtı silindire gönderen elemanlardan oluşur. Benzinli ve dizel motorlarda yakıtın yanma biçimi farklı olduğu için sistemlerin çalışma mantığı da birbirinden ayrılır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "motor_1_1",
+        "title": "Benzinli Motorlarda Yanma",
+        "content": "Benzinli motorlarda yakıt-hava karışımı silindir içinde sıkıştırıldıktan sonra bujiden atlayan kıvılcım (elektrik kıvılcımı) ile ateşlenir. Yani benzinli motorlarda yanmayı başlatan eleman bujidir. Bu nedenle benzinli motorlar 'kıvılcım ile ateşlemeli motorlar' olarak da adlandırılır. Bujinin görevi, sıkıştırılmış karışımı tam zamanında kıvılcımla tutuşturmaktır.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "motor_1_2",
+        "title": "Dizel Motorlarda Yanma",
+        "content": "Dizel motorlarda buji yoktur. Silindire alınan hava çok yüksek oranda sıkıştırılır ve sıcaklığı çok artar. Bu kızgın havanın üzerine enjektör yakıtı püskürtür ve yakıt sıkıştırmanın oluşturduğu yüksek sıcaklık sayesinde kendiliğinden tutuşur. Buna sıkıştırma (kompresyon) ile ateşleme denir. Yakıtı basınçla silindire püskürten eleman enjektördür.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "motor_1_3",
+        "title": "Benzinli ve Dizel Arasındaki Temel Farklar",
+        "content": "İki sistem arasındaki temel farklar şunlardır:\n• Benzinli motorda ateşlemeyi buji yapar, dizel motorda yakıt sıkıştırmayla kendiliğinden tutuşur.\n• Benzinli motorda silindire yakıt-hava karışımı alınır, dizel motorda yalnızca hava alınır ve yakıt sonradan enjektörle püskürtülür.\n• Dizel motorlarda sıkıştırma oranı benzinli motorlardan daha yüksektir.\n• Dizel motorlarda enjektör, benzinli motorlarda buji bulunur.",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "motor_1_4",
+        "title": "Yakıt Filtresinin Önemi",
+        "content": "Yakıt filtresi, yakıtın içindeki toz, su ve diğer kirleticileri tutarak temiz yakıtın motora ulaşmasını sağlar. Filtre tıkanırsa motora yeterli yakıt gidemez; bu durumda motor çekişten düşer, düzensiz çalışır veya hiç çalışmaz. Özellikle dizel araçlarda yakıt içindeki suyun ayrıştırılması büyük önem taşır.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "motor_1_5",
+        "title": "Sınav İpucu: Buji mi Enjektör mü?",
+        "content": "Sınavda en çok karıştırılan konu budur: Buji benzinli motorlara, enjektör ise dizel motorlara aittir. 'Dizel motorda yakıtı ateşleyen nedir?' sorusunun cevabı buji DEĞİLDİR; dizelde yakıt sıkıştırma sıcaklığıyla kendiliğinden tutuşur. 'Benzinli motorda ateşlemeyi sağlayan parça nedir?' sorusunun cevabı ise bujidir.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "motor_2",
+    "title": "Soğutma Sistemi",
+    "description": "Motor soğutma prensipleri",
+    "category": "motor",
+    "order": 2,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "motor_2_0",
+        "title": "Soğutma Sistemi Neden Gereklidir?",
+        "content": "Motor çalışırken silindir içindeki yanma sonucu çok yüksek sıcaklıklar oluşur. Bu ısının bir kısmının dışarı atılması gerekir; aksi hâlde motor aşırı ısınır ve parçalar genleşerek hasar görür. Soğutma sisteminin görevi, motoru ne aşırı ısınacak ne de aşırı soğuk kalacak şekilde, yaklaşık 90°C civarındaki ideal çalışma sıcaklığında tutmaktır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "motor_2_1",
+        "title": "Soğutma Sisteminin Parçaları",
+        "content": "Su (sıvı) ile soğutmalı bir sistemde başlıca parçalar şunlardır:\n• Radyatör: Sıcak soğutma suyunun havayla temas ederek soğutulduğu bölümdür.\n• Su pompası (devirdaim): Soğutma suyunu motor ile radyatör arasında dolaştırır.\n• Termostat: Motor soğukken suyun radyatöre gitmesini engeller, motor ısınınca su geçişini açar; böylece motorun çabuk ısınmasını ve ideal sıcaklıkta kalmasını sağlar.\n• Fan (vantilatör): Radyatörün yeterince soğumadığı durumlarda devreye girerek hava akışını artırır.\n• Soğutma suyu hortumları: Suyun dolaştığı bağlantı borularıdır.",
+        "type": "list",
+        "order": 1
+      },
+      {
+        "id": "motor_2_2",
+        "title": "Antifrizin Görevi",
+        "content": "Soğutma suyuna karıştırılan antifriz, sistemin her mevsim güvenle çalışmasını sağlar. Antifriz, kışın soğutma suyunun donmasını önler; yazın ise suyun kaynama (buharlaşma) sıcaklığını yükselterek kaynamasını geciktirir. Ayrıca soğutma sisteminin iç yüzeylerini paslanmaya ve korozyona karşı korur. Bu nedenle antifriz dört mevsim kullanılmalıdır.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "motor_2_3",
+        "title": "Motor Aşırı Isınırsa Ne Yapılmalı?",
+        "content": "Gösterge panelindeki sıcaklık ibresinin kırmızı bölgeye gelmesi veya soğutma suyu uyarı lambasının yanması motorun aşırı ısındığını gösterir. Bu durumda araç güvenli bir yerde durdurulmalı ve motor soğumaya bırakılmalıdır. Motor sıcakken radyatör kapağı asla açılmamalıdır; çünkü basınç altındaki kaynar su fışkırarak ciddi yanıklara yol açabilir. Soğutma suyu eksikse, motor soğuduktan sonra tamamlanmalıdır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "motor_2_4",
+        "title": "Sınav İpucu: Antifriz ve Termostat",
+        "content": "Sınavda 'antifrizin görevi nedir?' sorusunun doğru cevabı 'donmayı önlemek ve kaynamayı geciktirmek'tir. Sadece 'donmayı önler' demek eksik kalabilir. 'Motoru çabuk ısıtan ve ideal sıcaklıkta tutan parça hangisidir?' sorusunun cevabı termostattır. Ayrıca sıcak motorda radyatör kapağının açılmaması gerektiği de sık sorulan bir güvenlik kuralıdır.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "motor_3",
+    "title": "Fren Sistemi",
+    "description": "Disk, kampana ve ABS",
+    "category": "motor",
+    "order": 3,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "motor_3_0",
+        "title": "Fren Sisteminin Görevi",
+        "content": "Fren sistemi, hareket hâlindeki aracı yavaşlatmak veya durdurmak ve duran aracın yerinde sabit kalmasını sağlamak için kullanılır. Sürücü fren pedalına bastığında oluşan kuvvet hidrolik (fren hidroliği) aracılığıyla tekerleklerdeki fren elemanlarına iletilir ve tekerleklerin dönmesi yavaşlatılır. Fren sistemi, aracın en önemli güvenlik sistemlerinden biridir.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "motor_3_1",
+        "title": "Disk ve Kampana Frenler",
+        "content": "Araçlarda iki temel fren tipi kullanılır:\n• Disk fren: Tekerlekle birlikte dönen bir disk ve bu diski iki yandan sıkıştıran fren balatalarından (fren pabuçlarından) oluşur. Daha iyi soğur ve daha etkili frenleme sağlar; genellikle ön tekerleklerde kullanılır.\n• Kampana (tambur) fren: İçi boş bir tambur ve tamburun iç yüzeyine baskı yapan fren pabuçlarından oluşur. Genellikle arka tekerleklerde ve el freni bağlantısında kullanılır.",
+        "type": "list",
+        "order": 1
+      },
+      {
+        "id": "motor_3_2",
+        "title": "ABS Fren Sistemi",
+        "content": "ABS (Kilitlenmeyi Önleyici Fren Sistemi), ani ve sert frenlemede tekerleklerin kilitlenmesini (dönmeden kaymasını) önler. Tekerlekler kilitlenmediği için sürücü frene basılı tutarken bile direksiyon hâkimiyetini korur ve aracı engelden kaçırarak yönlendirebilir. ABS, frenleme mesafesini her zaman kısaltmaz; asıl amacı tekerleğin kilitlenmesini engelleyerek aracın kontrolden çıkmasını ve savrulmasını önlemektir.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "motor_3_3",
+        "title": "Fren Hidroliği ve Balata Kontrolü",
+        "content": "Fren sisteminin sağlıklı çalışması için fren hidroliği seviyesi düzenli kontrol edilmelidir. Fren hidroliği azalırsa veya sisteme hava girerse frenler tutmaz, pedal boşa gider. Ayrıca fren balataları aşındıkça frenleme gücü azalır; balatalar belirli bir kalınlığın altına indiğinde değiştirilmelidir. Gösterge panelindeki fren uyarı lambasının yanması, fren sisteminde bir arıza ya da hidrolik eksikliği olduğunu gösterir.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "motor_3_4",
+        "title": "Sınav İpucu: ABS'nin Asıl Amacı",
+        "content": "Sınavda 'ABS'nin görevi nedir?' sorusunun doğru cevabı 'frenlemede tekerleklerin kilitlenmesini önlemek ve direksiyon hâkimiyetini korumak'tır. 'Frenleme mesafesini kısaltır' seçeneği genellikle yanıltıcıdır; ABS'nin temel amacı durma mesafesini kısaltmak değil, aracın yönlendirilebilirliğini korumaktır. Disk frenin genellikle ön, kampana frenin arka tekerleklerde olduğunu da hatırlayın.",
+        "type": "tip",
+        "order": 4
+      }
+    ]
+  },
+  {
+    "id": "motor_4",
+    "title": "Elektrik Sistemi",
+    "description": "Akü ve elektrik devreleri",
+    "category": "motor",
+    "order": 4,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "motor_4_0",
+        "title": "Aracın Elektrik Sistemi",
+        "content": "Aracın elektrik sistemi; motorun çalıştırılması, farların ve sinyallerin yakılması, gösterge ve kornanın çalışması gibi birçok görevi yerine getirir. Sistemin temel parçaları akü, marş motoru, alternatör (şarj dinamosu) ve bunları birbirine bağlayan elektrik devreleridir. Devreleri aşırı akıma karşı koruyan elemanlar ise sigortalardır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "motor_4_1",
+        "title": "Akünün Görevi",
+        "content": "Akü, elektrik enerjisini kimyasal enerji olarak depolayan ve gerektiğinde elektrik enerjisi olarak veren bir kaynaktır. Binek araçlarda genellikle 12 volt gerilimli akü kullanılır. Akünün en önemli görevi, motor çalışmadığı sırada marş motoruna gerekli elektriği vererek motorun ilk çalışmasını (marş anında) sağlamaktır. Ayrıca motor durduğunda far, radyo gibi tüketicilere de enerji verir.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "motor_4_2",
+        "title": "Alternatörün (Şarj Dinamosunun) Görevi",
+        "content": "Alternatör, motor çalışırken devreye girerek elektrik üretir. Ürettiği elektrikle hem aracın çalışan tüketicilerini besler hem de marş sırasında boşalan aküyü yeniden şarj eder. Yani akü motoru ilk çalıştırırken, alternatör motor çalışmaya başladıktan sonra elektrik üretip aküyü doldurur. Alternatör arızalanırsa akü zamanla boşalır ve araç bir süre sonra çalışmaz hâle gelir.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "motor_4_3",
+        "title": "Gösterge Panelindeki İkaz Lambalarının Renkleri",
+        "content": "Gösterge panelindeki uyarı lambalarının rengi, durumun aciliyetini belirtir:\n• Kırmızı lamba: Tehlike ya da ciddi arıza anlamına gelir. Araç en kısa sürede güvenli bir yerde durdurulmalıdır.\n• Sarı/turuncu lamba: Uyarı niteliğindedir. Bir arıza ya da kontrol gereği vardır; en kısa sürede kontrol ettirilmelidir.\n• Yeşil lamba: Bilgi amaçlıdır ve sistemin normal çalıştığını gösterir (örneğin sinyal veya kısa far göstergesi).",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "motor_4_4",
+        "title": "Akü Bakımı ve Güvenlik",
+        "content": "Akü bağlantı kutup başları temiz ve sıkı olmalıdır; oksitlenmiş (paslanmış) kutup başları şarj ve marş sorunlarına yol açar. Akünün üzerinde kıvılcım ve açık ateşten kaçınılmalıdır; çünkü akü patlayıcı gaz çıkarabilir. Aküyü bağlarken artı (+) kutup önce, çıkarırken eksi (-) kutup önce sökülmelidir. Akü sıvısı (asit) cilde ve göze temas etmemelidir.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "motor_4_5",
+        "title": "Sınav İpucu: Akü mü Alternatör mü?",
+        "content": "Sınavda 'motoru marş anında çalıştıran elektriği veren nedir?' sorusunun cevabı aküdür. 'Motor çalışırken elektrik üreten ve aküyü şarj eden parça nedir?' sorusunun cevabı ise alternatördür. Bu ikisini karıştırmayın. Ayrıca ikaz lambası renklerini ezberleyin: kırmızı = hemen dur, sarı/turuncu = en kısa sürede kontrol ettir, yeşil = normal çalışma bilgisi.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "motor_5",
+    "title": "Lastik ve Jant",
+    "description": "Lastik bakımı ve değişimi",
+    "category": "motor",
+    "order": 5,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "motor_5_0",
+        "title": "Lastiğin Görevi ve Önemi",
+        "content": "Lastikler, aracın yol ile temas eden tek parçasıdır. Aracın ağırlığını taşır, yol tutuşunu sağlar, yoldan gelen darbeleri yumuşatır ve frenleme ile yönlendirme kuvvetlerini yola aktarır. Bu nedenle lastiklerin durumu doğrudan sürüş güvenliğini etkiler. Aşınmış, eski veya hasarlı lastikler kaza riskini ciddi biçimde artırır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "motor_5_1",
+        "title": "Diş Derinliği ve Yasal Sınır",
+        "content": "Lastik üzerindeki diş (sırt) desenleri, özellikle ıslak zeminde suyu tahliye ederek yol tutuşunu sağlar. Lastiğin yasal minimum diş derinliği 1.6 mm'dir. Diş derinliği bu değerin altına inmiş lastikler kaymaya ve fren mesafesinin uzamasına yol açtığı için kullanılmamalı, yenisiyle değiştirilmelidir. Dişi azalmış lastiklerle özellikle yağmurlu havada kayma (su üzerinde kayma) riski artar.",
+        "type": "important",
+        "order": 1
+      },
+      {
+        "id": "motor_5_2",
+        "title": "Lastik Basıncı",
+        "content": "Lastik basıncı, sürüş güvenliği ve yakıt tüketimi açısından önemlidir. Basıncı düşük lastik fazla ısınır, çabuk aşınır ve yakıt tüketimini artırır; aşırı şişirilmiş lastik ise yol tutuşunu azaltır ve patlama riskini yükseltir. Lastik basıncı, lastikler SOĞUKKEN ölçülmelidir; çünkü araç hareket ettikçe lastik ısınır ve içindeki hava genleşerek basıncı yükseltir, bu da yanlış ölçüme neden olur.",
+        "type": "text",
+        "order": 2
+      },
+      {
+        "id": "motor_5_3",
+        "title": "Lastik Bakımında Dikkat Edilecekler",
+        "content": "Lastiklerin uzun ömürlü ve güvenli kullanımı için şunlara dikkat edilmelidir:\n• Lastik basınçları üreticinin önerdiği değerlerde ve lastikler soğukken ölçülmelidir.\n• Diş derinliği düzenli kontrol edilmeli, 1.6 mm'nin altına inen lastikler değiştirilmelidir.\n• Lastiklerde çatlak, kesik, balon (şişlik) gibi hasarlar kontrol edilmelidir.\n• Lastiklerin düzgün ve eşit aşınması için belirli aralıklarla rotasyon (yer değiştirme) yapılmalıdır.\n• Aynı eksende farklı diş ve ebatta lastik kullanılmamalıdır.",
+        "type": "list",
+        "order": 3
+      },
+      {
+        "id": "motor_5_4",
+        "title": "Lastik Değişimi (Stepne Takma)",
+        "content": "Yolda lastik patladığında araç güvenli ve düz bir yerde durdurulmalı, el freni çekilmeli ve dörtlü ikaz (flaşör) lambaları yakılmalıdır. Aracın arkasına uygun mesafede üçgen reflektör konulmalıdır. Araç krikoyla kaldırılmadan önce sökülecek bijon (tekerlek) civataları hafifçe gevşetilir, sonra araç kaldırılıp lastik değiştirilir. Stepne takıldıktan sonra civatalar çapraz sırayla ve dengeli şekilde sıkılmalıdır.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "motor_5_5",
+        "title": "Sınav İpucu: 1.6 mm ve Soğuk Ölçüm",
+        "content": "Sınavda en çok sorulan iki değer şudur: Lastiğin yasal minimum diş derinliği 1.6 mm'dir ve lastik basıncı lastikler SOĞUKKEN ölçülür. Bu iki bilgiyi mutlaka aklınızda tutun. Ayrıca lastik patladığında ilk yapılması gerekenin aracı güvenli yerde durdurup dörtlü flaşörü yakmak ve reflektör koymak olduğunu hatırlayın.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "trafik_adabi_0",
+    "title": "Sürücü Davranışları",
+    "description": "Saygılı ve güvenli sürüş",
+    "category": "trafik_adabi",
+    "order": 0,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_adabi_0_0",
+        "title": "Trafik Bir Paylaşım Alanıdır",
+        "content": "Trafik; sürücüler, yolcular ve yayaların birlikte kullandığı ortak bir yaşam alanıdır. Bu alanda her bireyin davranışı diğerlerinin güvenliğini doğrudan etkiler. Trafik adabı, kurallara uymanın ötesinde; saygı, sabır, hoşgörü ve sorumluluk temelli bir davranış biçimidir. İyi bir sürücü yalnızca aracını iyi kullanan değil, çevresindekileri düşünen sürücüdür.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_adabi_0_1",
+        "title": "Saygı ve Hoşgörü",
+        "content": "Her sürücü zaman zaman hata yapabilir. Diğer sürücülerin hatalarına öfkeyle değil, hoşgörüyle ve güvenli mesafe alarak karşılık vermek hem kazaları önler hem de trafiği sakinleştirir. Yol vermek, teşekkür etmek, sıraya uymak ve aceleci davranmamak saygılı sürücülüğün göstergeleridir.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_adabi_0_2",
+        "title": "Sınavda Kritik: Agresif Tepki Yanlıştır",
+        "content": "Trafik adabı sorularında, önünüzü kesen veya hatalı davranan bir sürücüye karşı doğru tepki HER ZAMAN sakin kalmak, güvenli mesafe almak ve gerginliği büyütmemektir. 'Hemen korna çal', 'selektör/uzun far yap', 'hızlanıp önünü kes', 'tartışmaya gir' gibi seçenekler doğru cevap DEĞİLDİR.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_adabi_0_3",
+        "title": "Trafikte İletişim",
+        "content": "Sürücüler birbirleriyle sinyal (dönüş lambası), fren lambası, kısa korna ve gerektiğinde el işaretiyle iletişim kurar. Her manevra öncesinde sinyal vermek, niyetimizi diğer sürücülere önceden bildirmek güvenliğin temelidir. Korna; öfke veya selamlaşma için değil, yalnızca tehlikeyi haber vermek için kısa ve yerinde kullanılmalıdır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_adabi_0_4",
+        "title": "Sürücünün Sorumluluğu",
+        "content": "Direksiyon başındaki kişi; hız kurallarına uymak, alkol veya uyku hâlinde araç kullanmamak, dikkatini dağıtacak davranışlardan (telefon, yemek vb.) kaçınmak ve aracının bakımını yaptırmakla sorumludur. Bu sorumluluklar yalnızca kendi değil, tüm yol kullanıcılarının güvenliği içindir.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "trafik_adabi_0_5",
+        "title": "Sınav İpucu: Doğru Cevabın Dili",
+        "content": "Trafik adabı sorularında 'sakin ol', 'güvenli mesafe al', 'yol ver', 'hoşgörü göster', 'sabırlı ol' ifadelerini içeren seçenekler genellikle doğrudur. 'Hızlan', 'öfkelen', 'korna/selektör yap', 'önünü kes', 'tartış' içerenler yanlıştır. Duygusal değil, güvenlik odaklı düşünün.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "trafik_adabi_1",
+    "title": "Yaya Hakları",
+    "description": "Yaya önceliği kuralları",
+    "category": "trafik_adabi",
+    "order": 1,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_adabi_1_0",
+        "title": "Yaya Önceliği",
+        "content": "Yaya, trafikteki en korunmasız taraftır. Yaya geçitlerinde, okul ve hastane önlerinde, kavşaklarda yayanın geçiş önceliği vardır. Sürücü bu alanlarda hızını azaltmak, gerektiğinde durmak ve yayanın güvenle geçmesini sağlamakla yükümlüdür. Yaya geçidinde yayaya yol vermek bir nezaket değil, yasal zorunluluktur.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_adabi_1_1",
+        "title": "Yaya Geçitleri",
+        "content": "Yaya geçidine yaklaşan sürücü hızını azaltır; geçitte veya geçide adım atmak üzere olan yaya varsa durur ve geçmesini bekler. Yaya geçidi üzerinde veya yakınında durmak/park etmek, yayanın görüşünü ve güvenli geçişini engellediği için yasaktır. Işıklı kavşaklarda yaya yeşil ışığında geçişini tamamlayana kadar beklenir.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_adabi_1_2",
+        "title": "Sınavda Kritik: Okul ve Hastane Önü",
+        "content": "Okul, hastane, yaşlı/çocuk yoğun bölgelerin önünden geçerken hız önemli ölçüde azaltılır ve azami dikkat gösterilir. Bu alanlarda çocuklar ani ve öngörülemez hareket edebilir. Sınav sorularında bu bölgelerde doğru davranış her zaman 'hızı azalt, dikkatli ol, gerekirse dur' yönündedir.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_adabi_1_3",
+        "title": "Engelli, Yaşlı ve Çocuk Yayalar",
+        "content": "Beyaz baston taşıyan görme engelli yayanın, yaşlıların, çocukların ve hamilelerin geçişine her durumda öncelik ve ek özen gösterilir. Bu kişiler tehlikeyi geç fark edebilir ve daha yavaş hareket eder. Sürücü onları gördüğünde hızını iyice azaltmalı, sabırlı olmalı ve gerekirse tamamen durmalıdır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_adabi_1_4",
+        "title": "Kötü Görüş Koşullarında Yaya Güvenliği",
+        "content": "Gece, yağmur, sis ve kar gibi görüşün azaldığı koşullarda yayanın fark edilmesi zorlaşır. Bu durumlarda hız daha da azaltılmalı, dikkat artırılmalı ve özellikle yaya çıkma ihtimali yüksek bölgelerde (durak, okul, geçit) çok daha temkinli olunmalıdır.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "trafik_adabi_1_5",
+        "title": "Sınav İpucu: Yaya Daima Korunur",
+        "content": "Yaya haklarıyla ilgili sorularda doğru cevap her zaman yayayı koruyan ('hızı azalt', 'dur', 'yol ver', 'geçişini bekle') seçenektir. 'Devam et', 'hızlan', 'korna çalıp geç', 'sürücünün önceliği vardır' gibi ifadeler yanlıştır. Yayanın güvenliği her şeyin önündedir.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "trafik_adabi_2",
+    "title": "Çevre Bilinci",
+    "description": "Çevre dostu sürüş",
+    "category": "trafik_adabi",
+    "order": 2,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_adabi_2_0",
+        "title": "Ekonomik ve Çevreci Sürüş",
+        "content": "İçten yanmalı motorlar egzozdan çevreye zararlı gazlar salar. Sürücünün davranışı yakıt tüketimini ve kirliliği doğrudan etkiler. Ani hızlanma ve sert frenlemeden kaçınmak, sabit ve uygun hızda gitmek, motoru gereksiz yüksek devirde çalıştırmamak hem yakıt tasarrufu sağlar hem de emisyonu azaltır. Düzenli yapılan ani gaz-fren döngüsü, sabit hızda gitmeye göre çok daha fazla yakıt harcar.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_adabi_2_1",
+        "title": "Rölantide Gereksiz Bekleme",
+        "content": "Araç hareket etmeden motorun uzun süre çalışır halde beklemesi (rölanti) yakıtı boşa harcar ve havayı kirletir. Uzun süreli beklemelerde (hemzemin geçit, uzun kırmızı ışık, sıkışık kuyruk) motorun durdurulması hem ekonomik hem de çevre açısından doğru davranıştır.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_adabi_2_2",
+        "title": "Sınavda Kritik: Çevre Dostu Davranışlar",
+        "content": "Çevre bilinci sorularında doğru cevaplar; 'hızı sabit tut', 'ani gaz ve frenden kaçın', 'gereksiz rölantide bekleme', 'aracın bakımını düzenli yaptır', 'atık ve yağı yola/doğaya dökme' yönündedir. Bunlar hem yakıt tasarrufu hem de temiz çevre sağlar.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_adabi_2_3",
+        "title": "Gürültü Kirliliği",
+        "content": "Gereksiz korna kullanımı, yüksek sesli müzik, ani gaz vererek motoru yüksek devirde çalıştırma gürültü kirliliği yaratır. Özellikle hastane, okul ve yerleşim bölgelerinde gürültüye dikkat edilmelidir. Korna yalnızca tehlikeyi bildirmek için kısa süreli kullanılmalı, öfke veya eğlence amacıyla kullanılmamalıdır.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_adabi_2_4",
+        "title": "Araç Bakımı ve Çevre",
+        "content": "Bakımı yapılmamış araçlar daha fazla yakıt tüketir ve daha çok kirletici gaz salar. Hava filtresi, yakıt sistemi ve egzoz sisteminin düzenli kontrolü hem çevreyi korur hem de yakıt ekonomisi sağlar. Düzenli bakım aynı zamanda yolda arıza ve kaza riskini azaltır.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "trafik_adabi_2_5",
+        "title": "Sınav İpucu: Çevre = Tasarruf + Sorumluluk",
+        "content": "Çevre sorularında 'sabit hız', 'yumuşak sürüş', 'gereksiz rölanti yapma', 'düzenli bakım' içeren cevaplar doğrudur. 'Sürekli hızlan-frenle', 'uzun süre rölantide bekle', 'atığı yola at' içerenler yanlıştır. Çevreci sürüş aynı zamanda en ekonomik sürüştür.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  },
+  {
+    "id": "trafik_adabi_3",
+    "title": "Stres Yönetimi",
+    "description": "Trafikte sakin kalma",
+    "category": "trafik_adabi",
+    "order": 3,
+    "questionCount": 0,
+    "contents": [
+      {
+        "id": "trafik_adabi_3_0",
+        "title": "Trafikte Stres ve Öfke",
+        "content": "Trafik; gecikmeler, sıkışıklık, başkalarının hataları ve zaman baskısı nedeniyle stres ve öfke yaratabilen bir ortamdır. Öfke, beynin sakin ve mantıklı karar verme yeteneğini azaltır; tepki süresini ve risk alma eğilimini artırır. Öfkeyle verilen bir karar kazayla sonuçlanabilir. Bu yüzden duygu kontrolü, sürüş güvenliğinin temel parçasıdır.",
+        "type": "text",
+        "order": 0
+      },
+      {
+        "id": "trafik_adabi_3_1",
+        "title": "Öfkenin Sürüşe Etkisi",
+        "content": "Öfkeli sürücü; ani hızlanır, öndeki araca çok yaklaşır, gereksiz korna ve selektör yapar, başka araçların önünü keser. Bu davranışlar hem kendisi hem de çevresi için tehlikelidir ve zincirleme kazalara yol açabilir. 'Yol husumeti' olarak bilinen bu davranışlar yasal sorumluluk da doğurur.",
+        "type": "text",
+        "order": 1
+      },
+      {
+        "id": "trafik_adabi_3_2",
+        "title": "Sınavda Kritik: Provokasyona Cevap Verme",
+        "content": "Sınav 'sürücü sinirlendi/tahrik edildi, ne yapmalı?' sorularında doğru cevap HER ZAMAN: sakin kalmak, güvenli mesafe almak, karşı tarafa geçiş imkânı vermek ve provokasyona karşılık vermemektir. 'Geri ödetmek', 'önünü kesmek', 'korna/selektörle saldırmak', 'inip tartışmak' yanlış cevaplardır.",
+        "type": "important",
+        "order": 2
+      },
+      {
+        "id": "trafik_adabi_3_3",
+        "title": "Stresle Başa Çıkma Yolları",
+        "content": "Yola çıkmadan önce dinlenmek, yolculuğu erken planlayıp aceleyi azaltmak, güzergâhı önceden belirlemek, derin nefes almak ve sakinleştirici müzik dinlemek stresi azaltır. Sürücü kendini gergin hissettiğinde güvenli bir yerde kısa süre durup sakinleşebilir.",
+        "type": "text",
+        "order": 3
+      },
+      {
+        "id": "trafik_adabi_3_4",
+        "title": "Yorgunluk ve Uykusuzluk",
+        "content": "Uykusuzluk ve yorgunluk dikkati azaltır, tepki süresini uzatır ve öfkeye eğilimi artırır. Yorgun sürücü, alkollü sürücü kadar tehlikeli olabilir. Uzun yolculuklarda düzenli mola vermek, uyku hâli geldiğinde güvenli bir yerde durup dinlenmek hayat kurtarır.",
+        "type": "text",
+        "order": 4
+      },
+      {
+        "id": "trafik_adabi_3_5",
+        "title": "Sınav İpucu: Kontrol Sizde Olmalı",
+        "content": "Stres ve öfke sorularında doğru cevap her zaman empati ve öz kontrol üzerinedir: 'Karşı taraf hatalı olsa bile sakin kalın', 'provokasyona karşılık vermeyin', 'güvenli mesafe alıp yol verin'. Trafikte kontrolü kaybetmek hata, hata ise kaza demektir.",
+        "type": "tip",
+        "order": 5
+      }
+    ]
+  }
+]
