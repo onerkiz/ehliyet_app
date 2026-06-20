@@ -50,6 +50,8 @@ class HomeScreen extends ConsumerWidget {
             const SectionHeader('Araçlar'),
             _ToolsCard(
               tools: [
+                _Tool(Icons.headphones, AppColors.primary, 'Dinleyerek Çalış',
+                    () => context.push('/listen')),
                 _Tool(Icons.history_edu, AppColors.amber, 'Çıkmış Sorular',
                     () => context.push('/years')),
                 _Tool(Icons.trending_down, AppColors.error, 'Zayıf Noktalarım',

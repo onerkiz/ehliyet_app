@@ -36,17 +36,6 @@ class _StudyQuestionViewState extends ConsumerState<StudyQuestionView> {
   bool _speaking = false;
 
   @override
-  void initState() {
-    super.initState();
-    // "Dinleyerek Çalış" açıksa soruyu otomatik oku.
-    if (ref.read(ttsAutoReadProvider)) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (mounted) _speak(_questionSpeech());
-      });
-    }
-  }
-
-  @override
   void dispose() {
     TtsService.instance.stop();
     super.dispose();
@@ -93,10 +82,6 @@ class _StudyQuestionViewState extends ConsumerState<StudyQuestionView> {
       HapticFeedback.heavyImpact();
     }
     widget.onAnswered(correct);
-    // Sesli mod açıksa açıklamayı otomatik oku.
-    if (ref.read(ttsAutoReadProvider)) {
-      _toggleSpeak(_explanationSpeech());
-    }
   }
 
   @override

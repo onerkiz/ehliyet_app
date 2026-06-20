@@ -35,17 +35,3 @@ class ThemeModeNotifier extends Notifier<ThemeMode> {
 
 final themeModeProvider =
     NotifierProvider<ThemeModeNotifier, ThemeMode>(ThemeModeNotifier.new);
-
-/// "Dinleyerek Çalış" — yeni soru gelince otomatik sesli okuma (Hive'da kalıcı).
-class TtsAutoReadNotifier extends Notifier<bool> {
-  @override
-  bool build() => ref.read(progressRepositoryProvider).ttsAutoRead();
-
-  Future<void> set(bool enabled) async {
-    await ref.read(progressRepositoryProvider).setTtsAutoRead(enabled);
-    state = enabled;
-  }
-}
-
-final ttsAutoReadProvider =
-    NotifierProvider<TtsAutoReadNotifier, bool>(TtsAutoReadNotifier.new);

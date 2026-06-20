@@ -126,10 +126,17 @@ class ProgressRepository {
   Future<void> setThemeMode(ThemeMode mode) =>
       _settings.put('themeMode', mode.name);
 
-  // --- "Dinleyerek Çalış" (sesli okuma) ayarı ---
-  /// Yeni soru gelince otomatik sesli okunsun mu? (varsayılan kapalı)
-  bool ttsAutoRead() =>
-      _settings.get('ttsAutoRead', defaultValue: false) as bool;
-  Future<void> setTtsAutoRead(bool enabled) =>
-      _settings.put('ttsAutoRead', enabled);
+  // --- "Dinleme Modu" (eller serbest sesli çalışma) ayarları ---
+  /// Seçili Türkçe ses adı (null = ilk offline ses).
+  String? ttsVoice() => _settings.get('ttsVoice') as String?;
+  Future<void> setTtsVoice(String name) => _settings.put('ttsVoice', name);
+
+  /// Okuma hızı çarpanı: 1.0 / 1.5 / 2.0 (varsayılan 1.0).
+  double ttsSpeed() =>
+      (_settings.get('ttsSpeed', defaultValue: 1.0) as num).toDouble();
+  Future<void> setTtsSpeed(double mult) => _settings.put('ttsSpeed', mult);
+
+  /// Dinleme modunda kaldığı soru indeksi (kaldığı yerden devam).
+  int listenIndex() => _settings.get('listenIndex', defaultValue: 0) as int;
+  Future<void> setListenIndex(int i) => _settings.put('listenIndex', i);
 }

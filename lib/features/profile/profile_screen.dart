@@ -18,7 +18,6 @@ class ProfileScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final mode = ref.watch(themeModeProvider);
     final notifier = ref.read(themeModeProvider.notifier);
-    final ttsAuto = ref.watch(ttsAutoReadProvider);
     final progress = ref.watch(progressRepositoryProvider);
     final examCount = progress.allResults().length;
     final streak = progress.currentStreak();
@@ -54,19 +53,6 @@ class ProfileScreen extends ConsumerWidget {
                   ),
                 ],
               ),
-            ),
-          ),
-          const SizedBox(height: 20),
-          const _SectionHeader('Dinleyerek Çalış'),
-          AppCard(
-            padding: EdgeInsets.zero,
-            child: SwitchListTile(
-              secondary: const Icon(Icons.headphones_outlined),
-              title: const Text('Soruları sesli oku'),
-              subtitle: const Text(
-                  'Her soru ve açıklama otomatik sesli okunur (cihaz sesi)'),
-              value: ttsAuto,
-              onChanged: (v) => ref.read(ttsAutoReadProvider.notifier).set(v),
             ),
           ),
           const SizedBox(height: 20),
