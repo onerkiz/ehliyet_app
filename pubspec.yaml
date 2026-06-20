@@ -1,4 +1,4 @@
-name: ehliyet_sinav_2025
+name: ehliyet_sinav
 description: "Ehliyet (sürücü belgesi) e-sınavına hazırlık: çıkmış sorular, deneme sınavları, trafik işaretleri, konu testleri ve istatistikler. Tamamen internetsiz çalışır."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.

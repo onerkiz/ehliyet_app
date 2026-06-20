@@ -1,6 +1,6 @@
 {
-    "name": "ehliyet_sinav_2025",
-    "short_name": "ehliyet_sinav_2025",
+    "name": "Ehliyet Sınav",
+    "short_name": "Ehliyet Sınav",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

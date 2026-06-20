@@ -1,4 +1,4 @@
-# ehliyet_sinav_2025
+# ehliyet_sinav
 
 A new Flutter project.
 

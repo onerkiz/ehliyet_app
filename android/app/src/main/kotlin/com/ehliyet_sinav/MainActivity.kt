@@ -1,4 +1,4 @@
-package com.ehliyet.ehliyet_sinav_2025
+package com.ehliyet_sinav
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,6 +1,6 @@
 // Sınav yapılandırması birim testleri (platform bağımsız, hızlı).
 import 'package:flutter_test/flutter_test.dart';
-import 'package:ehliyet_sinav_2025/core/constants/exam_config.dart';
+import 'package:ehliyet_sinav/core/constants/exam_config.dart';
 
 void main() {
   test('MEB ders dağılımı toplam 50 soruya eşittir', () {
